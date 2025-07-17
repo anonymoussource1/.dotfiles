@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =2
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/danielkurz/.dotfiles/.config'
 let g:netrw_dirhist_2='/home/danielkurz/.config'
 let g:netrw_dirhist_1='/usr/share/wayland-sessions'
 let g:netrw_dirhist_0='/etc/lemurs/wayland'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_7='/etc/lemurs/wayland'
 let g:netrw_dirhist_6='/etc/lemurs'
 let g:netrw_dirhist_5='/usr/share/wayland-sessions'
 let g:netrw_dirhist_4='/usr/share/xdg-desktop-portal'
-let g:netrw_dirhist_3='/usr/share/wayland-sessions'
