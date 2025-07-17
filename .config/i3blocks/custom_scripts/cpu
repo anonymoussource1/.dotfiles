@@ -1,0 +1,18 @@
+#!/bin/bash
+mpstat 2 | stdbuf -o L awk '
+	/all/ {
+		cpu=100-$(13)
+
+		if (cpu >= 80) {
+			color="#FF0000"
+		} else if (cpu >= 60) {
+			color="#FFAE00"
+		} else if (cpu >= 40) {
+			color="#FFF600"
+		} else {
+			color="#FFFFFF"
+		}
+
+		printf("{\"full_text\":\"%.2f%%\",\"color\":\"%s\"}\n",cpu,color)
+	}
+'

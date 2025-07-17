@@ -1,0 +1,2 @@
+#!/bin/bash
+ln -sf ~/.config/i3blocks/pride ~/.config/i3blocks/config

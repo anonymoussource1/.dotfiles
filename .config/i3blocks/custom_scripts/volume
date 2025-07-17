@@ -1,0 +1,15 @@
+#!/bin/bash
+function print_stuff {
+	vol=$(pactl get-sink-volume @DEFAULT_SINK@ | grep -Eo --color=never "[0-9]{2}%" | head -1)
+	is_mute=$(pactl get-sink-mute @DEFAULT_SINK@ | grep -Eo "yes|no") 
+	if [ "$is_mute" = "yes" ]; then
+		printf '{"full_text":"MUTE (%s)","color":"#FFF600"}\n' $vol
+	else
+		printf '{"full_text":"VOL %s"}\n' $vol
+	fi
+}
+
+print_stuff
+pactl subscribe | grep --line-buffered "change" | while read EVENT; do
+	print_stuff
+done

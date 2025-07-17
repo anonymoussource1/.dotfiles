@@ -1,0 +1,53 @@
+#!/usr/bin/bash
+COLOR_GE80=${COLOR_GE80:-#00FF00}
+COLOR_GE60=${COLOR_GE60:-#FFF600}
+COLOR_GE40=${COLOR_GE40:-#FFAE00}
+COLOR_LOWR=${COLOR_LOWR:-#FF0000}
+COLOR_DOWN=${COLOR_DOWN:-#FF0000}
+
+# If the wifi interface exists but no connection is active, "down" shall be displayed.
+if [[ "$(cat /sys/class/net/wlan0/operstate)" = 'down' ]]; then
+    echo "DOWN"
+    echo "DOWN"
+    echo $COLOR_DOWN
+    exit
+fi
+
+#------------------------------------------------------------------------
+
+QUALITY=$(iwctl station wlan0 show | awk '/RSSI/{print  ($2 > -50 ? 100 :($2 < -100 ? 0 : ($2+100)*2))}')
+
+#------------------------------------------------------------------------
+
+if [[ $QUALITY -ge 80 ]]; then
+    COLOR=$_normal
+elif [[ $QUALITY -ge 60 ]]; then
+    COLOR=$COLOR_GE60
+elif [[ $QUALITY -ge 40 ]]; then
+    COLOR=$COLOR_GE40
+else
+    COLOR=$COLOR_LOWR
+fi
+
+if [[ $button -eq 1 ]];
+then
+	_pressed=$((~_pressed & 1))
+fi
+
+if [[ $_pressed -eq 1 ]];
+then
+	message=$(iwctl station wlan0 show | awk '
+		/Connected network/ {
+			name=$3
+		}
+		/IPv4/ {
+			ip=$3
+		}
+		END {
+			printf("%s (%s)",name,ip)
+		}
+	')
+	printf '{"full_text":"%s %s", "color":"%s", "_pressed":1}\n' $message $COLOR
+else
+	printf '{"full_text":"WIFI %s%%", "color":"%s", "_pressed":0}\n' $QUALITY $COLOR
+fi

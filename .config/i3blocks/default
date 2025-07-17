@@ -1,0 +1,75 @@
+# i3blocks config file
+#
+# Please see man i3blocks for a complete reference!
+# The man page is also hosted at http://vivien.github.io/i3blocks
+#
+# List of valid properties:
+#
+# align
+# color
+# command
+# full_text
+# instance
+# interval
+# label
+# min_width
+# name
+# separator
+# separator_block_width
+# short_text
+# signal
+# urgent
+
+# Global properties
+#
+# The top properties below are applied to every block, but can be overridden.
+# Each block command defaults to the script name to avoid boilerplate.
+# Change $SCRIPT_DIR to the location of your scripts!
+command=$SCRIPT_DIR/$BLOCK_NAME/$BLOCK_NAME
+min_width=150
+separator_block_width=0
+separator=false
+align=center
+markup=none
+color=#FFFFFFF
+_normal=#FFFFFFF
+_low=#FFF600
+_lower=#FFAE00
+_lowest=#FF0000
+
+[mediaplayer]
+background=#2B2B27DD
+instance=vlc,%any,spotify
+interval=5
+
+[volume]
+command=custom_scripts/volume
+background=#263023DD
+format=json
+interval=persist
+
+[wifi]
+command=custom_scripts/wifi
+background=#21361EDD
+_pressed=0
+interval=2
+format=json
+
+[cpu_usage]
+label=CPU 
+command=custom_scripts/cpu
+interval=persist
+background=#1D3B1ADD
+format=json
+
+[memory]
+label=RAM 
+command=custom_scripts/memory
+background=#184115DD
+interval=2
+_first=0
+
+[time]
+command=date '+ %Y-%m-%d %H:%M:%S '
+background=#134611DD
+interval=1

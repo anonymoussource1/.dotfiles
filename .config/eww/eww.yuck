@@ -1,0 +1,35 @@
+;; vim: ft=lisp
+(defwindow eee
+	:monitor 0
+	:stacking "fg"
+	:windowtype "dock"
+	:exclusive true
+	:geometry (geometry
+		:anchor "bottom center"
+		:width "70%"
+		:height "3%")
+	(workspace-panel))
+
+;(defwidget body
+;	(box hexpand false
+;		 (workspace-panel)
+;		 (time-label))
+	
+;;(defwidget buttons
+;	(box :halign "end"
+		;(button :onclick "notify-send Hello!"
+		;	"Hello!!")))	
+
+;(defpoll time :interval "1s"
+;	`date +'{"day":"%d","hour":"%H","min":"%M","sec":"%S"}'`)
+
+;(defwidget time-label []
+;	(label :text "${time.day} // ${time.hour}:${time.min}:${time.sec}" :tooltip "the time dummy"))
+
+(deflisten workspaces
+	`hyprland-workspaces eDP-1`)
+
+(defwidget workspace-panel []
+	(box :spacing 5
+		(for workspace in workspaces
+			 (label :text "${workspace.id}"))))

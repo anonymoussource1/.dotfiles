@@ -1,0 +1,1902 @@
+[2025-05-04 19:55:02.670] [20869] (engine.cpp:528): Created native engine, time: Sun May  4 19:55:02 2025 PDT, logPath: /home/danielkurz/.config/discord/logs/, logLevel: 2
+[2025-05-04 19:55:02.670] [20869] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.AppliedInputVolume.*` histogram stats.
+[2025-05-04 19:55:02.670] [20869] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.RecommendedInputVolume.*` histogram stats.
+[2025-05-04 19:55:02.670] [20869] (audio_processing_impl.cc:461): Injected APM submodules:
+Echo control factory: 1
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2025-05-04 19:55:02.670] [20869] (audio_processing_impl.cc:474): AudioProcessing: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 0 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-05-04 19:55:02.671] [20869] (transparent_mode.cc:240): AEC3 Transparent Mode: Legacy
+[2025-05-04 19:55:02.671] [20869] (echo_canceller3.cc:792): AEC3 created with sample rate: 16000 Hz, num render channels: 1, num capture channels: 1
+[2025-05-04 19:55:02.671] [20869] (audio_processing_impl.cc:673): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-05-04 19:55:02.671] [20869] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2025-05-04 19:55:02.671] [20869] (audio_device_impl.cc:153): current platform is Linux
+[2025-05-04 19:55:02.671] [20869] (audio_device_impl.cc:175): CreatePlatformSpecificObjects
+[2025-05-04 19:55:02.671] [20869] (audio_device_impl.cc:945): PlatformAudioLayer
+[2025-05-04 19:55:02.671] [20869] (audio_device_impl.cc:253): PulseAudio support is enabled.
+[2025-05-04 19:55:02.671] [20869] (audio_device_impl.cc:258): Linux PulseAudio APIs will be utilized
+[2025-05-04 19:55:02.671] [20869] (audio_device_impl.cc:300): AttachAudioBuffer
+[2025-05-04 19:55:02.671] [20869] (audio_device_buffer.cc:197): SetRecordingSampleRate(0)
+[2025-05-04 19:55:02.671] [20869] (audio_device_buffer.cc:203): SetPlayoutSampleRate(0)
+[2025-05-04 19:55:02.671] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(0)
+[2025-05-04 19:55:02.671] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(0)
+[2025-05-04 19:55:02.671] [20869] (audio_device_impl.cc:310): ActiveAudioLayer
+[2025-05-04 19:55:02.671] [20869] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2025-05-04 19:55:02.671] [20869] (audio_device_impl.cc:153): current platform is Linux
+[2025-05-04 19:55:02.671] [20869] (audio_device_impl.cc:175): CreatePlatformSpecificObjects
+[2025-05-04 19:55:02.671] [20869] (audio_device_impl.cc:945): PlatformAudioLayer
+[2025-05-04 19:55:02.671] [20869] (audio_device_impl.cc:253): PulseAudio support is enabled.
+[2025-05-04 19:55:02.671] [20869] (audio_device_impl.cc:258): Linux PulseAudio APIs will be utilized
+[2025-05-04 19:55:02.671] [20869] (audio_device_impl.cc:300): AttachAudioBuffer
+[2025-05-04 19:55:02.671] [20869] (audio_device_buffer.cc:197): SetRecordingSampleRate(0)
+[2025-05-04 19:55:02.671] [20869] (audio_device_buffer.cc:203): SetPlayoutSampleRate(0)
+[2025-05-04 19:55:02.671] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(0)
+[2025-05-04 19:55:02.671] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(0)
+[2025-05-04 19:55:02.672] [20869] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.AppliedInputVolume.*` histogram stats.
+[2025-05-04 19:55:02.672] [20869] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.RecommendedInputVolume.*` histogram stats.
+[2025-05-04 19:55:02.672] [20869] (audio_processing_impl.cc:461): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2025-05-04 19:55:02.672] [20869] (audio_processing_impl.cc:474): AudioProcessing: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 0 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-05-04 19:55:02.672] [20869] (audio_engine.cpp:552): Creating audio engine: standard
+[2025-05-04 19:55:02.672] [20869] (audio_device_impl.cc:320): Init
+[2025-05-04 19:55:02.676] [20869] (audio_device_impl.cc:320): Init
+[2025-05-04 19:55:02.679] [20869] (audio_coding.cpp:158): Using software Opus decoder
+[2025-05-04 19:55:02.680] [20869] (audio_coding.cpp:175): Using software Opus encoder
+[2025-05-04 19:55:02.680] [20869] (audio_device_impl.cc:851): RegisterAudioCallback
+[2025-05-04 19:55:02.680] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(100)
+[2025-05-04 19:55:02.680] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-04 19:55:02.680] [20869] (audio_device_impl.cc:851): RegisterAudioCallback
+[2025-05-04 19:55:02.680] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-04 19:55:02.680] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-04 19:55:02.680] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-04 19:55:02.680] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-04 19:55:02.680] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-04 19:55:02.681] [20869] (audio_device_impl.cc:529): output: 1
+[2025-05-04 19:55:02.681] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-04 19:55:02.681] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-04 19:55:02.681] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-04 19:55:02.681] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-04 19:55:02.681] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-04 19:55:02.681] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-04 19:55:02.681] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-04 19:55:02.681] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-04 19:55:02.681] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-04 19:55:02.681] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-04 19:55:02.681] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-04 19:55:02.681] [20869] (audio_device_impl.cc:867): BuiltInAECIsAvailable
+[2025-05-04 19:55:02.681] [20869] (audio_device_generic.cc:32): BuiltInAECIsAvailable: Not supported on this platform
+[2025-05-04 19:55:02.681] [20869] (audio_device_impl.cc:870): output: 0
+[2025-05-04 19:55:02.681] [20869] (audio_processing_impl.cc:673): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-05-04 19:55:02.682] [20869] (transparent_mode.cc:240): AEC3 Transparent Mode: Legacy
+[2025-05-04 19:55:02.682] [20869] (echo_canceller3.cc:792): AEC3 created with sample rate: 16000 Hz, num render channels: 1, num capture channels: 1
+[2025-05-04 19:55:02.682] [20869] (audio_processing_impl.cc:673): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-05-04 19:55:02.682] [20869] (clipping_predictor.cc:358): [AGC2] Clipping prediction disabled.
+[2025-05-04 19:55:02.682] [20869] (agc_manager_direct.cc:481): [agc] analog controller enabled: yes
+[2025-05-04 19:55:02.682] [20869] (agc_manager_direct.cc:484): [agc] Min mic level: 12 (overridden: no)
+[2025-05-04 19:55:02.682] [20869] (captured_audio_processor.cpp:157): SetNoiseCancellation: 0
+[2025-05-04 19:55:02.682] [20869] (audio_processing_impl.cc:673): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-05-04 19:55:02.682] [20869] (field_trial.cc:164): Setting field trial string:WebRTC-Audio-NetEqDecisionLogicConfig/reinit_after_expands:100/
+[2025-05-04 19:55:02.686] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-04 19:55:02.686] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-04 19:55:02.686] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-04 19:55:02.686] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-04 19:55:02.686] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-04 19:55:02.686] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-04 19:55:02.687] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-04 19:55:02.688] [20869] (audio_device_impl.cc:529): output: 1
+[2025-05-04 19:55:02.688] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-04 19:55:02.688] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-04 19:55:02.688] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-04 19:55:02.688] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-04 19:55:02.688] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-04 19:55:02.688] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-04 19:55:02.688] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-04 19:55:02.688] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-04 19:55:02.688] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-04 19:55:02.688] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-04 19:55:02.688] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-04 19:55:02.688] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-04 19:55:02.688] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-04 19:55:02.688] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-04 19:55:02.688] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-04 19:55:02.688] [20869] (engine_audio_transport.cpp:589): EngineAudioTransport::SetSidechainCompression 0
+[2025-05-04 19:55:02.688] [20869] (engine_audio_transport.cpp:600): EngineAudioTransport::ApplySidechainCompressionSettings  threshold: -32.5 ratio: 0.433333
+[2025-05-04 19:55:02.688] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-04 19:55:02.688] [20869] (engine.cpp:230): * audioInput:
+[2025-05-04 19:55:02.689] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-04 19:55:02.689] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-04 19:55:02.689] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-04 19:55:02.689] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-04 19:55:02.689] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-04 19:55:02.689] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-04 19:55:02.689] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-04 19:55:02.689] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-04 19:55:02.689] [20869] (audio_device_impl.cc:529): output: 1
+[2025-05-04 19:55:02.689] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-04 19:55:02.689] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-04 19:55:02.689] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-04 19:55:02.689] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-04 19:55:02.689] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-04 19:55:02.689] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-04 19:55:02.689] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-04 19:55:02.689] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-04 19:55:02.690] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-04 19:55:02.690] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-04 19:55:02.690] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-04 19:55:02.690] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-04 19:55:02.690] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-04 19:55:02.690] [20869] (engine.cpp:230): * audioInput:
+[2025-05-04 19:55:02.690] [20869] (engine.cpp:233): - default: Built-in Audio Analog Stereo ()
+[2025-05-04 19:55:02.690] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-04 19:55:02.690] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-04 19:55:02.690] [20869] (engine.cpp:238): - default: Built-in Audio Analog Stereo ()
+[2025-05-04 19:55:02.690] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-04 19:55:02.690] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-04 19:55:03.057] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-04 19:55:03.057] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-04 19:55:03.057] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-04 19:55:03.057] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-04 19:55:03.057] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-04 19:55:03.058] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-04 19:55:03.058] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-04 19:55:03.058] [20869] (audio_device_impl.cc:529): output: 1
+[2025-05-04 19:55:03.058] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-04 19:55:03.058] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-04 19:55:03.058] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-04 19:55:03.058] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-04 19:55:03.058] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-04 19:55:03.058] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-04 19:55:03.058] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-04 19:55:03.058] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-04 19:55:03.059] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-04 19:55:03.060] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-04 19:55:03.060] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-04 19:55:03.060] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-04 19:55:03.060] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-04 19:55:03.060] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-04 19:55:03.060] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-04 19:55:03.060] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-04 19:55:03.060] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-04 19:55:03.060] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-04 19:55:03.060] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-04 19:55:03.061] [20869] (audio_device_impl.cc:529): output: 1
+[2025-05-04 19:55:03.061] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-04 19:55:03.061] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-04 19:55:03.061] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-04 19:55:03.061] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-04 19:55:03.061] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-04 19:55:03.061] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-04 19:55:03.061] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-04 19:55:03.061] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-04 19:55:03.062] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-04 19:55:03.062] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-04 19:55:03.062] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-04 19:55:03.062] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-04 19:58:17.249] [20855] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 213 ms
+[2025-05-04 19:58:18.302] [20855] JS console: [GatewaySocket] [READY] took 1266ms, as 15131ba23ebd630a0c6afd7d4211e473
+[2025-05-04 19:58:18.384] [20869] (engine_audio_transport.cpp:589): EngineAudioTransport::SetSidechainCompression 1
+[2025-05-04 19:58:18.450] [20855] JS console: [GatewaySocket] [READY_SUPPLEMENTAL] took 1414ms
+[2025-05-04 19:58:36.916] [21499] (region_latency_tester.cpp:72): Sending 5 latency test pings to region santa-clara
+[2025-05-04 19:58:36.916] [21499] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-west
+[2025-05-04 19:58:36.916] [21499] (region_latency_tester.cpp:72): Sending 5 latency test pings to region seattle
+[2025-05-04 19:58:36.916] [21499] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-south
+[2025-05-04 19:58:36.916] [21499] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-central
+[2025-05-04 19:58:36.989] [21499] (region_latency_tester.cpp:287): Average RTT for region santa-clara is 18.25
+[2025-05-04 19:58:36.989] [21499] (region_latency_tester.cpp:287): Average RTT for region us-west is 28
+[2025-05-04 19:58:36.989] [21499] (region_latency_tester.cpp:287): Average RTT for region seattle is 37.5
+[2025-05-04 19:58:36.989] [21499] (region_latency_tester.cpp:287): Average RTT for region us-south is 63
+[2025-05-04 19:58:36.989] [21499] (region_latency_tester.cpp:287): Average RTT for region us-central is 72.5
+[2025-05-04 20:09:30.957] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-04 20:09:30.957] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-04 20:09:30.957] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-04 20:09:30.958] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-04 20:09:30.960] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-04 20:09:30.960] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-04 20:09:30.960] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-04 20:09:30.960] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-04 20:09:30.960] [20869] (engine.cpp:230): * audioInput:
+[2025-05-04 20:09:30.960] [20869] (engine.cpp:233): - default: Built-in Audio Analog Stereo ()
+[2025-05-04 20:09:30.960] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-04 20:09:30.961] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-04 20:09:30.961] [20869] (engine.cpp:238): - default: Daniel's AirPods Pro ()
+[2025-05-04 20:09:30.961] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-04 20:09:30.961] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-04 20:09:30.961] [20869] (engine.cpp:238): - Daniel's AirPods Pro ()
+[2025-05-04 20:09:30.964] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-04 20:09:30.964] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-04 20:09:30.964] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-04 20:09:30.965] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-04 20:09:30.967] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-04 20:09:30.967] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-04 20:09:30.967] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-04 20:09:32.961] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-04 20:09:32.961] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-04 20:09:32.961] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-04 20:09:32.961] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-04 20:09:32.961] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-04 20:09:32.961] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-04 20:09:32.963] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-04 20:09:32.965] [20869] (audio_device_impl.cc:529): output: 0
+[2025-05-04 20:09:32.965] [20869] (audio_device_impl.cc:534): SetStereoRecording(0)
+[2025-05-04 20:09:32.965] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(1)
+[2025-05-04 20:09:32.965] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-04 20:09:32.965] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-04 20:09:32.965] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-04 20:09:32.965] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-04 20:09:32.965] [20869] (engine.cpp:230): * audioInput:
+[2025-05-04 20:09:32.965] [20869] (engine.cpp:233): - default: Daniel's AirPods Pro ()
+[2025-05-04 20:09:32.965] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-04 20:09:32.965] [20869] (engine.cpp:233): - Daniel's AirPods Pro ()
+[2025-05-04 20:09:32.965] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-04 20:09:32.965] [20869] (engine.cpp:238): - default: Daniel's AirPods Pro ()
+[2025-05-04 20:09:32.965] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-04 20:09:32.965] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-04 20:09:32.965] [20869] (engine.cpp:238): - Daniel's AirPods Pro ()
+[2025-05-04 20:09:32.967] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-04 20:09:32.967] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-04 20:09:32.967] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-04 20:09:32.967] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-04 20:09:32.967] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-04 20:09:32.967] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-04 20:09:32.969] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-04 20:09:32.971] [20869] (audio_device_impl.cc:529): output: 0
+[2025-05-04 20:09:32.971] [20869] (audio_device_impl.cc:534): SetStereoRecording(0)
+[2025-05-04 20:09:32.971] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(1)
+[2025-05-04 20:09:32.971] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-04 20:09:32.971] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-04 20:09:32.971] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-04 20:10:02.589] [20869] (instrumented_task.cpp:52): polling 26 metrics
+[2025-05-04 20:25:02.605] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-04 20:40:02.606] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-04 20:55:02.622] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-04 21:10:02.623] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-04 21:25:02.624] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-04 21:31:44.036] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-04 21:31:44.049] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-04 21:31:44.049] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-04 21:31:44.050] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-04 21:31:44.050] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-04 21:31:44.050] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-04 21:31:44.051] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-04 21:31:44.054] [20869] (audio_device_impl.cc:529): output: 1
+[2025-05-04 21:31:44.054] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-04 21:31:44.054] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-04 21:31:44.068] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-04 21:31:44.068] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-04 21:31:44.068] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-04 21:31:44.068] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-04 21:31:44.068] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-04 21:31:44.068] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-04 21:31:44.069] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-04 21:31:44.071] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-04 21:31:44.072] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-04 21:31:44.072] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-04 21:31:44.072] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-04 21:31:44.072] [20869] (engine.cpp:230): * audioInput:
+[2025-05-04 21:31:44.072] [20869] (engine.cpp:233): - default: Built-in Audio Analog Stereo ()
+[2025-05-04 21:31:44.072] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-04 21:31:44.072] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-04 21:31:44.072] [20869] (engine.cpp:238): - default: Built-in Audio Analog Stereo ()
+[2025-05-04 21:31:44.072] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-04 21:31:44.072] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-04 21:31:44.078] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-04 21:31:44.078] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-04 21:31:44.078] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-04 21:31:44.078] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-04 21:31:44.078] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-04 21:31:44.078] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-04 21:31:44.079] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-04 21:31:44.082] [20869] (audio_device_impl.cc:529): output: 1
+[2025-05-04 21:31:44.082] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-04 21:31:44.082] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-04 21:31:44.082] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-04 21:31:44.082] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-04 21:31:44.082] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-04 21:31:44.082] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-04 21:31:44.082] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-04 21:31:44.082] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-04 21:31:44.083] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-04 21:31:44.084] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-04 21:31:44.084] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-04 21:31:44.084] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-04 21:40:02.640] [20869] (instrumented_task.cpp:52): polling 3 metrics
+[2025-05-04 21:55:02.654] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-04 22:01:58.355] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-04 22:01:58.367] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-04 22:01:58.367] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-04 22:01:58.367] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-04 22:01:58.369] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-04 22:01:58.369] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-04 22:01:58.369] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-04 22:01:58.369] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-04 22:01:58.369] [20869] (engine.cpp:230): * audioInput:
+[2025-05-04 22:01:58.369] [20869] (engine.cpp:233): - default: Built-in Audio Analog Stereo ()
+[2025-05-04 22:01:58.369] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-04 22:01:58.369] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-04 22:01:58.369] [20869] (engine.cpp:238): - default: Daniel's AirPods Pro ()
+[2025-05-04 22:01:58.369] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-04 22:01:58.369] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-04 22:01:58.369] [20869] (engine.cpp:238): - Daniel's AirPods Pro ()
+[2025-05-04 22:01:58.379] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-04 22:01:58.379] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-04 22:01:58.379] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-04 22:01:58.380] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-04 22:01:58.381] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-04 22:01:58.381] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-04 22:01:58.381] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-04 22:02:00.357] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-04 22:02:00.357] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-04 22:02:00.357] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-04 22:02:00.357] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-04 22:02:00.357] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-04 22:02:00.357] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-04 22:02:00.357] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-04 22:02:00.358] [20869] (audio_device_impl.cc:529): output: 0
+[2025-05-04 22:02:00.358] [20869] (audio_device_impl.cc:534): SetStereoRecording(0)
+[2025-05-04 22:02:00.358] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(1)
+[2025-05-04 22:02:00.358] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-04 22:02:00.358] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-04 22:02:00.358] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-04 22:02:00.358] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-04 22:02:00.358] [20869] (engine.cpp:230): * audioInput:
+[2025-05-04 22:02:00.358] [20869] (engine.cpp:233): - default: Daniel's AirPods Pro ()
+[2025-05-04 22:02:00.358] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-04 22:02:00.358] [20869] (engine.cpp:233): - Daniel's AirPods Pro ()
+[2025-05-04 22:02:00.358] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-04 22:02:00.358] [20869] (engine.cpp:238): - default: Daniel's AirPods Pro ()
+[2025-05-04 22:02:00.358] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-04 22:02:00.358] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-04 22:02:00.358] [20869] (engine.cpp:238): - Daniel's AirPods Pro ()
+[2025-05-04 22:02:00.359] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-04 22:02:00.359] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-04 22:02:00.359] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-04 22:02:00.359] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-04 22:02:00.359] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-04 22:02:00.359] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-04 22:02:00.359] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-04 22:02:00.360] [20869] (audio_device_impl.cc:529): output: 0
+[2025-05-04 22:02:00.360] [20869] (audio_device_impl.cc:534): SetStereoRecording(0)
+[2025-05-04 22:02:00.360] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(1)
+[2025-05-04 22:02:00.360] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-04 22:02:00.360] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-04 22:02:00.360] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-04 22:02:28.369] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-04 22:02:28.369] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-04 22:02:28.369] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-04 22:02:28.369] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-04 22:02:28.369] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-04 22:02:28.369] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-04 22:02:28.371] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-04 22:02:28.373] [20869] (audio_device_impl.cc:529): output: 1
+[2025-05-04 22:02:28.373] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-04 22:02:28.373] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-04 22:02:28.373] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-04 22:02:28.373] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-04 22:02:28.373] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-04 22:02:28.373] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-04 22:02:28.373] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-04 22:02:28.373] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-04 22:02:28.374] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-04 22:02:28.377] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-04 22:02:28.377] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-04 22:02:28.377] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-04 22:02:28.377] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-04 22:02:28.377] [20869] (engine.cpp:230): * audioInput:
+[2025-05-04 22:02:28.377] [20869] (engine.cpp:233): - default: Built-in Audio Analog Stereo ()
+[2025-05-04 22:02:28.377] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-04 22:02:28.377] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-04 22:02:28.377] [20869] (engine.cpp:238): - default: Built-in Audio Analog Stereo ()
+[2025-05-04 22:02:28.377] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-04 22:02:28.377] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-04 22:02:28.378] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-04 22:02:28.378] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-04 22:02:28.378] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-04 22:02:28.378] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-04 22:02:28.378] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-04 22:02:28.378] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-04 22:02:28.380] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-04 22:02:28.382] [20869] (audio_device_impl.cc:529): output: 1
+[2025-05-04 22:02:28.382] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-04 22:02:28.382] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-04 22:02:28.382] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-04 22:02:28.382] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-04 22:02:28.382] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-04 22:02:28.382] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-04 22:02:28.382] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-04 22:02:28.382] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-04 22:02:28.383] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-04 22:02:28.386] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-04 22:02:28.386] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-04 22:02:28.386] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-04 22:10:02.655] [20869] (instrumented_task.cpp:52): polling 3 metrics
+[2025-05-04 22:25:02.671] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-04 22:27:48.198] [20855] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 2.23 seconds.
+[2025-05-04 22:27:50.425] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-04 22:27:50.635] [20855] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 209 ms
+[2025-05-04 22:27:50.635] [20855] JS console: [GatewaySocket] [RESUME] resuming session 15131ba23ebd630a0c6afd7d4211e473, seq: 1009
+[2025-05-04 22:27:50.796] [20855] JS console: [GatewaySocket] [RESUMED] took 371ms, replayed 0 events, new seq: 1010
+[2025-05-04 22:40:02.672] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-04 22:55:02.674] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-04 23:10:02.674] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-04 23:25:02.675] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-04 23:40:02.676] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-04 23:55:02.677] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 00:10:02.678] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 00:25:02.678] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 00:40:02.679] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 00:45:20.645] [20855] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 1.66 seconds.
+[2025-05-05 00:45:22.302] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-05 00:45:22.509] [20855] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 207 ms
+[2025-05-05 00:45:22.509] [20855] JS console: [GatewaySocket] [RESUME] resuming session 15131ba23ebd630a0c6afd7d4211e473, seq: 2059
+[2025-05-05 00:45:22.646] [20855] JS console: [GatewaySocket] [RESUMED] took 344ms, replayed 0 events, new seq: 2062
+[2025-05-05 00:55:02.680] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 01:10:02.681] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 01:25:02.682] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 01:40:02.683] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 01:55:02.684] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 01:58:36.922] [42624] (region_latency_tester.cpp:72): Sending 5 latency test pings to region santa-clara
+[2025-05-05 01:58:36.922] [42624] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-west
+[2025-05-05 01:58:36.922] [42624] (region_latency_tester.cpp:72): Sending 5 latency test pings to region seattle
+[2025-05-05 01:58:36.922] [42624] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-south
+[2025-05-05 01:58:36.922] [42624] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-central
+[2025-05-05 01:58:36.993] [42624] (region_latency_tester.cpp:287): Average RTT for region santa-clara is 22.5
+[2025-05-05 01:58:36.993] [42624] (region_latency_tester.cpp:287): Average RTT for region us-west is 31.75
+[2025-05-05 01:58:36.993] [42624] (region_latency_tester.cpp:287): Average RTT for region seattle is 40
+[2025-05-05 01:58:36.993] [42624] (region_latency_tester.cpp:287): Average RTT for region us-south is 61.25
+[2025-05-05 01:58:36.993] [42624] (region_latency_tester.cpp:287): Average RTT for region us-central is 71
+[2025-05-05 02:10:02.685] [20869] (instrumented_task.cpp:52): polling 2 metrics
+[2025-05-05 02:20:31.094] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-05 02:20:31.298] [20855] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 203 ms
+[2025-05-05 02:20:31.298] [20855] JS console: [GatewaySocket] [RESUME] resuming session 15131ba23ebd630a0c6afd7d4211e473, seq: 2807
+[2025-05-05 02:20:31.457] [20855] JS console: [GatewaySocket] [RESUMED] took 363ms, replayed 0 events, new seq: 2808
+[2025-05-05 02:25:02.693] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 02:40:02.694] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 02:55:02.695] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 03:10:02.695] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 03:25:02.696] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 03:40:02.697] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 03:55:02.698] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 04:10:02.699] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 04:25:02.699] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 04:40:02.700] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 04:55:02.701] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 05:10:02.702] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 05:25:02.703] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 05:40:02.704] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 05:55:02.705] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 06:01:02.648] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-05 06:01:02.841] [20855] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 192 ms
+[2025-05-05 06:01:02.841] [20855] JS console: [GatewaySocket] [RESUME] resuming session 15131ba23ebd630a0c6afd7d4211e473, seq: 5320
+[2025-05-05 06:01:02.982] [20855] JS console: [GatewaySocket] [RESUMED] took 334ms, replayed 0 events, new seq: 5321
+[2025-05-05 06:10:02.706] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 06:25:02.707] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 06:40:02.708] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 06:55:02.709] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 07:10:02.710] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 07:11:53.447] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-05 07:11:53.447] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-05 07:11:53.447] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-05 07:11:53.447] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-05 07:11:53.448] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-05 07:11:53.448] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-05 07:11:53.448] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-05 07:11:53.448] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-05 07:11:53.448] [20869] (engine.cpp:230): * audioInput:
+[2025-05-05 07:11:53.448] [20869] (engine.cpp:233): - default: Built-in Audio Analog Stereo ()
+[2025-05-05 07:11:53.448] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-05 07:11:53.448] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-05 07:11:53.448] [20869] (engine.cpp:238): - default: Daniel's AirPods Pro ()
+[2025-05-05 07:11:53.448] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-05 07:11:53.448] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-05 07:11:53.448] [20869] (engine.cpp:238): - Daniel's AirPods Pro ()
+[2025-05-05 07:11:53.449] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-05 07:11:53.449] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-05 07:11:53.449] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-05 07:11:53.449] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-05 07:11:53.450] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-05 07:11:53.450] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-05 07:11:53.450] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-05 07:11:56.452] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-05 07:11:56.452] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-05 07:11:56.452] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-05 07:11:56.452] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-05 07:11:56.452] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-05 07:11:56.452] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-05 07:11:56.453] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-05 07:11:56.453] [20869] (audio_device_impl.cc:529): output: 0
+[2025-05-05 07:11:56.453] [20869] (audio_device_impl.cc:534): SetStereoRecording(0)
+[2025-05-05 07:11:56.453] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(1)
+[2025-05-05 07:11:56.453] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-05 07:11:56.453] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-05 07:11:56.453] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-05 07:11:56.453] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-05 07:11:56.453] [20869] (engine.cpp:230): * audioInput:
+[2025-05-05 07:11:56.453] [20869] (engine.cpp:233): - default: Daniel's AirPods Pro ()
+[2025-05-05 07:11:56.453] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-05 07:11:56.453] [20869] (engine.cpp:233): - Daniel's AirPods Pro ()
+[2025-05-05 07:11:56.453] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-05 07:11:56.453] [20869] (engine.cpp:238): - default: Daniel's AirPods Pro ()
+[2025-05-05 07:11:56.453] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-05 07:11:56.453] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-05 07:11:56.453] [20869] (engine.cpp:238): - Daniel's AirPods Pro ()
+[2025-05-05 07:11:56.454] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-05 07:11:56.454] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-05 07:11:56.454] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-05 07:11:56.454] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-05 07:11:56.454] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-05 07:11:56.454] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-05 07:11:56.455] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-05 07:11:56.456] [20869] (audio_device_impl.cc:529): output: 0
+[2025-05-05 07:11:56.456] [20869] (audio_device_impl.cc:534): SetStereoRecording(0)
+[2025-05-05 07:11:56.456] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(1)
+[2025-05-05 07:11:56.456] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-05 07:11:56.456] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-05 07:11:56.456] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-05 07:25:02.710] [20869] (instrumented_task.cpp:52): polling 3 metrics
+[2025-05-05 07:30:17.561] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-05 07:30:17.561] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-05 07:30:17.561] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-05 07:30:17.561] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-05 07:30:17.561] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-05 07:30:17.561] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-05 07:30:17.562] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-05 07:30:17.563] [20869] (audio_device_impl.cc:529): output: 1
+[2025-05-05 07:30:17.563] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-05 07:30:17.563] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-05 07:30:17.563] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-05 07:30:17.563] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-05 07:30:17.563] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-05 07:30:17.563] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-05 07:30:17.563] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-05 07:30:17.563] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-05 07:30:17.564] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-05 07:30:17.566] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-05 07:30:17.566] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-05 07:30:17.566] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-05 07:30:17.566] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-05 07:30:17.566] [20869] (engine.cpp:230): * audioInput:
+[2025-05-05 07:30:17.566] [20869] (engine.cpp:233): - default: Built-in Audio Analog Stereo ()
+[2025-05-05 07:30:17.566] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-05 07:30:17.566] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-05 07:30:17.566] [20869] (engine.cpp:238): - default: Built-in Audio Analog Stereo ()
+[2025-05-05 07:30:17.566] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-05 07:30:17.566] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-05 07:30:17.567] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-05 07:30:17.567] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-05 07:30:17.567] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-05 07:30:17.567] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-05 07:30:17.567] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-05 07:30:17.567] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-05 07:30:17.568] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-05 07:30:17.570] [20869] (audio_device_impl.cc:529): output: 1
+[2025-05-05 07:30:17.570] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-05 07:30:17.570] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-05 07:30:17.570] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-05 07:30:17.570] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-05 07:30:17.570] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-05 07:30:17.570] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-05 07:30:17.570] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-05 07:30:17.570] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-05 07:30:17.572] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-05 07:30:17.574] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-05 07:30:17.574] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-05 07:30:17.574] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-05 07:40:02.715] [20869] (instrumented_task.cpp:52): polling 3 metrics
+[2025-05-05 07:53:52.070] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-05 07:53:52.267] [20855] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 196 ms
+[2025-05-05 07:53:52.267] [20855] JS console: [GatewaySocket] [RESUME] resuming session 15131ba23ebd630a0c6afd7d4211e473, seq: 6519
+[2025-05-05 07:53:52.422] [20855] JS console: [GatewaySocket] [RESUMED] took 352ms, replayed 0 events, new seq: 6520
+[2025-05-05 07:55:02.728] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 07:58:36.867] [46835] (region_latency_tester.cpp:72): Sending 5 latency test pings to region santa-clara
+[2025-05-05 07:58:36.867] [46835] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-west
+[2025-05-05 07:58:36.867] [46835] (region_latency_tester.cpp:72): Sending 5 latency test pings to region seattle
+[2025-05-05 07:58:36.867] [46835] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-south
+[2025-05-05 07:58:36.867] [46835] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-central
+[2025-05-05 07:58:36.940] [46835] (region_latency_tester.cpp:287): Average RTT for region santa-clara is 23
+[2025-05-05 07:58:36.940] [46835] (region_latency_tester.cpp:287): Average RTT for region us-west is 33.75
+[2025-05-05 07:58:36.940] [46835] (region_latency_tester.cpp:287): Average RTT for region seattle is 42.5
+[2025-05-05 07:58:36.940] [46835] (region_latency_tester.cpp:287): Average RTT for region us-south is 63.5
+[2025-05-05 07:58:36.940] [46835] (region_latency_tester.cpp:287): Average RTT for region us-central is 73
+[2025-05-05 08:10:02.729] [20869] (instrumented_task.cpp:52): polling 2 metrics
+[2025-05-05 08:25:02.737] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 08:40:02.738] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 08:46:12.699] [20855] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 1.69 seconds.
+[2025-05-05 08:46:14.388] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-05 08:46:14.582] [20855] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 194 ms
+[2025-05-05 08:46:14.582] [20855] JS console: [GatewaySocket] [RESUME] resuming session 15131ba23ebd630a0c6afd7d4211e473, seq: 7322
+[2025-05-05 08:46:14.748] [20855] JS console: [GatewaySocket] [RESUMED] took 360ms, replayed 0 events, new seq: 7323
+[2025-05-05 08:55:02.739] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 09:10:02.751] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 09:25:02.752] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 09:40:02.753] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 09:55:02.754] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 10:10:02.755] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 10:25:02.756] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 10:40:02.757] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 10:55:02.758] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 10:56:59.444] [20855] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 1.30 seconds.
+[2025-05-05 10:57:00.748] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-05 10:57:00.989] [20855] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 241 ms
+[2025-05-05 10:57:00.989] [20855] JS console: [GatewaySocket] [RESUME] resuming session 15131ba23ebd630a0c6afd7d4211e473, seq: 9197
+[2025-05-05 10:57:01.136] [20855] JS console: [GatewaySocket] [RESUMED] took 388ms, replayed 0 events, new seq: 9198
+[2025-05-05 11:10:02.759] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 11:25:02.760] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 11:28:40.645] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-05 11:28:40.843] [20855] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 197 ms
+[2025-05-05 11:28:40.843] [20855] JS console: [GatewaySocket] [RESUME] resuming session 15131ba23ebd630a0c6afd7d4211e473, seq: 9427
+[2025-05-05 11:28:40.993] [20855] JS console: [GatewaySocket] [RESUMED] took 348ms, replayed 0 events, new seq: 9428
+[2025-05-05 11:40:02.761] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 11:55:02.762] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 12:10:02.763] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 12:25:02.764] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 12:40:02.765] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 12:55:02.766] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 13:10:02.767] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 13:25:02.768] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 13:28:28.469] [20855] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 2.34 seconds.
+[2025-05-05 13:28:30.805] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-05 13:28:31.005] [20855] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 199 ms
+[2025-05-05 13:28:31.005] [20855] JS console: [GatewaySocket] [RESUME] resuming session 15131ba23ebd630a0c6afd7d4211e473, seq: 11278
+[2025-05-05 13:28:31.149] [20855] JS console: [GatewaySocket] [RESUMED] took 344ms, replayed 0 events, new seq: 11279
+[2025-05-05 13:40:02.769] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 13:55:02.770] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 13:58:36.875] [49103] (region_latency_tester.cpp:72): Sending 5 latency test pings to region santa-clara
+[2025-05-05 13:58:36.876] [49103] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-west
+[2025-05-05 13:58:36.876] [49103] (region_latency_tester.cpp:72): Sending 5 latency test pings to region seattle
+[2025-05-05 13:58:36.876] [49103] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-south
+[2025-05-05 13:58:36.876] [49103] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-central
+[2025-05-05 13:58:36.945] [49103] (region_latency_tester.cpp:287): Average RTT for region santa-clara is 20.5
+[2025-05-05 13:58:36.945] [49103] (region_latency_tester.cpp:287): Average RTT for region us-west is 29.75
+[2025-05-05 13:58:36.945] [49103] (region_latency_tester.cpp:287): Average RTT for region seattle is 37.5
+[2025-05-05 13:58:36.945] [49103] (region_latency_tester.cpp:287): Average RTT for region us-south is 58.5
+[2025-05-05 13:58:36.945] [49103] (region_latency_tester.cpp:287): Average RTT for region us-central is 69
+[2025-05-05 14:10:02.772] [20869] (instrumented_task.cpp:52): polling 2 metrics
+[2025-05-05 14:25:02.780] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 14:40:02.781] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 14:55:02.783] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 15:10:02.784] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 15:25:02.784] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 15:32:07.453] [20855] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 1.83 seconds.
+[2025-05-05 15:32:09.286] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-05 15:32:09.486] [20855] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 199 ms
+[2025-05-05 15:32:09.486] [20855] JS console: [GatewaySocket] [RESUME] resuming session 15131ba23ebd630a0c6afd7d4211e473, seq: 12871
+[2025-05-05 15:32:09.648] [20855] JS console: [GatewaySocket] [RESUMED] took 362ms, replayed 0 events, new seq: 12874
+[2025-05-05 15:40:02.785] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 15:55:02.786] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 16:10:02.787] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 16:25:02.788] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 16:40:02.789] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 16:55:02.790] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 17:10:02.791] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 17:16:05.733] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-05 17:16:05.733] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-05 17:16:05.733] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-05 17:16:05.734] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-05 17:16:05.735] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-05 17:16:05.735] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-05 17:16:05.735] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-05 17:16:05.735] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-05 17:16:05.735] [20869] (engine.cpp:230): * audioInput:
+[2025-05-05 17:16:05.735] [20869] (engine.cpp:233): - default: Built-in Audio Analog Stereo ()
+[2025-05-05 17:16:05.735] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-05 17:16:05.735] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-05 17:16:05.735] [20869] (engine.cpp:238): - default: Daniel's AirPods Pro ()
+[2025-05-05 17:16:05.735] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-05 17:16:05.735] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-05 17:16:05.735] [20869] (engine.cpp:238): - Daniel's AirPods Pro ()
+[2025-05-05 17:16:05.736] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-05 17:16:05.736] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-05 17:16:05.736] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-05 17:16:05.737] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-05 17:16:05.739] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-05 17:16:05.739] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-05 17:16:05.739] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-05 17:16:08.733] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-05 17:16:08.733] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-05 17:16:08.733] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-05 17:16:08.733] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-05 17:16:08.733] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-05 17:16:08.733] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-05 17:16:08.733] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-05 17:16:08.735] [20869] (audio_device_impl.cc:529): output: 0
+[2025-05-05 17:16:08.735] [20869] (audio_device_impl.cc:534): SetStereoRecording(0)
+[2025-05-05 17:16:08.735] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(1)
+[2025-05-05 17:16:08.735] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-05 17:16:08.735] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-05 17:16:08.735] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-05 17:16:08.735] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-05 17:16:08.735] [20869] (engine.cpp:230): * audioInput:
+[2025-05-05 17:16:08.735] [20869] (engine.cpp:233): - default: Daniel's AirPods Pro ()
+[2025-05-05 17:16:08.735] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-05 17:16:08.735] [20869] (engine.cpp:233): - Daniel's AirPods Pro ()
+[2025-05-05 17:16:08.735] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-05 17:16:08.735] [20869] (engine.cpp:238): - default: Daniel's AirPods Pro ()
+[2025-05-05 17:16:08.735] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-05 17:16:08.735] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-05 17:16:08.735] [20869] (engine.cpp:238): - Daniel's AirPods Pro ()
+[2025-05-05 17:16:08.735] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-05 17:16:08.735] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-05 17:16:08.735] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-05 17:16:08.735] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-05 17:16:08.735] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-05 17:16:08.735] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-05 17:16:08.736] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-05 17:16:08.738] [20869] (audio_device_impl.cc:529): output: 0
+[2025-05-05 17:16:08.738] [20869] (audio_device_impl.cc:534): SetStereoRecording(0)
+[2025-05-05 17:16:08.738] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(1)
+[2025-05-05 17:16:08.738] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-05 17:16:08.738] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-05 17:16:08.738] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-05 17:25:02.792] [20869] (instrumented_task.cpp:52): polling 3 metrics
+[2025-05-05 17:40:02.803] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 17:44:19.953] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-05 17:44:20.011] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-05 17:44:20.011] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-05 17:44:20.011] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-05 17:44:20.011] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-05 17:44:20.011] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-05 17:44:20.013] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-05 17:44:20.015] [20869] (audio_device_impl.cc:529): output: 1
+[2025-05-05 17:44:20.015] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-05 17:44:20.015] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-05 17:44:20.015] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-05 17:44:20.015] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-05 17:44:20.015] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-05 17:44:20.015] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-05 17:44:20.015] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-05 17:44:20.015] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-05 17:44:20.016] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-05 17:44:20.017] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-05 17:44:20.018] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-05 17:44:20.018] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-05 17:44:20.018] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-05 17:44:20.018] [20869] (engine.cpp:230): * audioInput:
+[2025-05-05 17:44:20.018] [20869] (engine.cpp:233): - default: Built-in Audio Analog Stereo ()
+[2025-05-05 17:44:20.018] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-05 17:44:20.018] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-05 17:44:20.018] [20869] (engine.cpp:238): - default: Built-in Audio Analog Stereo ()
+[2025-05-05 17:44:20.018] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-05 17:44:20.018] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-05 17:44:20.019] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-05 17:44:20.019] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-05 17:44:20.019] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-05 17:44:20.019] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-05 17:44:20.019] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-05 17:44:20.019] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-05 17:44:20.020] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-05 17:44:20.021] [20869] (audio_device_impl.cc:529): output: 1
+[2025-05-05 17:44:20.021] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-05 17:44:20.021] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-05 17:44:20.021] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-05 17:44:20.021] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-05 17:44:20.021] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-05 17:44:20.021] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-05 17:44:20.021] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-05 17:44:20.021] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-05 17:44:20.022] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-05 17:44:20.024] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-05 17:44:20.024] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-05 17:44:20.024] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-05 17:55:02.804] [20869] (instrumented_task.cpp:52): polling 3 metrics
+[2025-05-05 17:55:33.037] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-05 17:55:33.037] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-05 17:55:33.037] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-05 17:55:33.037] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-05 17:55:33.038] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-05 17:55:33.038] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-05 17:55:33.038] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-05 17:55:33.038] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-05 17:55:33.038] [20869] (engine.cpp:230): * audioInput:
+[2025-05-05 17:55:33.038] [20869] (engine.cpp:233): - default: Built-in Audio Analog Stereo ()
+[2025-05-05 17:55:33.038] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-05 17:55:33.038] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-05 17:55:33.038] [20869] (engine.cpp:238): - default: Daniel's AirPods Pro ()
+[2025-05-05 17:55:33.038] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-05 17:55:33.038] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-05 17:55:33.038] [20869] (engine.cpp:238): - Daniel's AirPods Pro ()
+[2025-05-05 17:55:33.039] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-05 17:55:33.039] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-05 17:55:33.039] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-05 17:55:33.039] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-05 17:55:33.040] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-05 17:55:33.040] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-05 17:55:33.040] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-05 17:55:35.040] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-05 17:55:35.040] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-05 17:55:35.040] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-05 17:55:35.040] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-05 17:55:35.040] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-05 17:55:35.040] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-05 17:55:35.041] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-05 17:55:35.042] [20869] (audio_device_impl.cc:529): output: 0
+[2025-05-05 17:55:35.042] [20869] (audio_device_impl.cc:534): SetStereoRecording(0)
+[2025-05-05 17:55:35.042] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(1)
+[2025-05-05 17:55:35.042] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-05 17:55:35.042] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-05 17:55:35.042] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-05 17:55:35.042] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-05 17:55:35.042] [20869] (engine.cpp:230): * audioInput:
+[2025-05-05 17:55:35.042] [20869] (engine.cpp:233): - default: Daniel's AirPods Pro ()
+[2025-05-05 17:55:35.042] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-05 17:55:35.042] [20869] (engine.cpp:233): - Daniel's AirPods Pro ()
+[2025-05-05 17:55:35.042] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-05 17:55:35.042] [20869] (engine.cpp:238): - default: Daniel's AirPods Pro ()
+[2025-05-05 17:55:35.042] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-05 17:55:35.042] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-05 17:55:35.042] [20869] (engine.cpp:238): - Daniel's AirPods Pro ()
+[2025-05-05 17:55:35.043] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-05 17:55:35.043] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-05 17:55:35.043] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-05 17:55:35.043] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-05 17:55:35.043] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-05 17:55:35.043] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-05 17:55:35.049] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-05 17:55:35.052] [20869] (audio_device_impl.cc:529): output: 0
+[2025-05-05 17:55:35.052] [20869] (audio_device_impl.cc:534): SetStereoRecording(0)
+[2025-05-05 17:55:35.052] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(1)
+[2025-05-05 17:55:35.052] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-05 17:55:35.052] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-05 17:55:35.052] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-05 17:56:09.041] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-05 17:56:09.041] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-05 17:56:09.041] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-05 17:56:09.041] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-05 17:56:09.041] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-05 17:56:09.041] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-05 17:56:09.042] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-05 17:56:09.043] [20869] (audio_device_impl.cc:529): output: 1
+[2025-05-05 17:56:09.043] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-05 17:56:09.043] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-05 17:56:09.043] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-05 17:56:09.043] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-05 17:56:09.043] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-05 17:56:09.043] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-05 17:56:09.043] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-05 17:56:09.043] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-05 17:56:09.043] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-05 17:56:09.044] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-05 17:56:09.044] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-05 17:56:09.044] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-05 17:56:09.044] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-05 17:56:09.044] [20869] (engine.cpp:230): * audioInput:
+[2025-05-05 17:56:09.044] [20869] (engine.cpp:233): - default: Built-in Audio Analog Stereo ()
+[2025-05-05 17:56:09.044] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-05 17:56:09.044] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-05 17:56:09.044] [20869] (engine.cpp:238): - default: Built-in Audio Analog Stereo ()
+[2025-05-05 17:56:09.044] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-05 17:56:09.044] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-05 17:56:09.044] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-05 17:56:09.044] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-05 17:56:09.044] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-05 17:56:09.044] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-05 17:56:09.044] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-05 17:56:09.044] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-05 17:56:09.045] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-05 17:56:09.046] [20869] (audio_device_impl.cc:529): output: 1
+[2025-05-05 17:56:09.046] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-05 17:56:09.046] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-05 17:56:09.046] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-05 17:56:09.046] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-05 17:56:09.046] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-05 17:56:09.046] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-05 17:56:09.046] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-05 17:56:09.046] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-05 17:56:09.047] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-05 17:56:09.047] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-05 17:56:09.047] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-05 17:56:09.047] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-05 18:07:30.716] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-05 18:07:31.149] [20855] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 433 ms
+[2025-05-05 18:07:31.150] [20855] JS console: [GatewaySocket] [RESUME] resuming session 15131ba23ebd630a0c6afd7d4211e473, seq: 15136
+[2025-05-05 18:07:31.292] [20855] JS console: [GatewaySocket] [RESUMED] took 576ms, replayed 0 events, new seq: 15137
+[2025-05-05 18:10:02.811] [20869] (instrumented_task.cpp:52): polling 3 metrics
+[2025-05-05 18:24:59.805] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-05 18:24:59.805] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-05 18:24:59.805] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-05 18:24:59.806] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-05 18:24:59.807] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-05 18:24:59.807] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-05 18:24:59.807] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-05 18:24:59.807] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-05 18:24:59.807] [20869] (engine.cpp:230): * audioInput:
+[2025-05-05 18:24:59.807] [20869] (engine.cpp:233): - default: Built-in Audio Analog Stereo ()
+[2025-05-05 18:24:59.807] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-05 18:24:59.807] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-05 18:24:59.807] [20869] (engine.cpp:238): - default: Daniel's AirPods Pro ()
+[2025-05-05 18:24:59.807] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-05 18:24:59.807] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-05 18:24:59.807] [20869] (engine.cpp:238): - Daniel's AirPods Pro ()
+[2025-05-05 18:24:59.807] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-05 18:24:59.807] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-05 18:24:59.807] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-05 18:24:59.808] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-05 18:24:59.809] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-05 18:24:59.809] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-05 18:24:59.809] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-05 18:25:02.803] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-05 18:25:02.803] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-05 18:25:02.803] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-05 18:25:02.803] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-05 18:25:02.803] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-05 18:25:02.803] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-05 18:25:02.804] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-05 18:25:02.805] [20869] (audio_device_impl.cc:529): output: 0
+[2025-05-05 18:25:02.805] [20869] (audio_device_impl.cc:534): SetStereoRecording(0)
+[2025-05-05 18:25:02.805] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(1)
+[2025-05-05 18:25:02.805] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-05 18:25:02.805] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-05 18:25:02.805] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-05 18:25:02.805] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-05 18:25:02.805] [20869] (engine.cpp:230): * audioInput:
+[2025-05-05 18:25:02.805] [20869] (engine.cpp:233): - default: Daniel's AirPods Pro ()
+[2025-05-05 18:25:02.805] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-05 18:25:02.805] [20869] (engine.cpp:233): - Daniel's AirPods Pro ()
+[2025-05-05 18:25:02.805] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-05 18:25:02.805] [20869] (engine.cpp:238): - default: Daniel's AirPods Pro ()
+[2025-05-05 18:25:02.805] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-05 18:25:02.805] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-05 18:25:02.805] [20869] (engine.cpp:238): - Daniel's AirPods Pro ()
+[2025-05-05 18:25:02.805] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-05 18:25:02.805] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-05 18:25:02.805] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-05 18:25:02.805] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-05 18:25:02.805] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-05 18:25:02.805] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-05 18:25:02.806] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-05 18:25:02.807] [20869] (audio_device_impl.cc:529): output: 0
+[2025-05-05 18:25:02.807] [20869] (audio_device_impl.cc:534): SetStereoRecording(0)
+[2025-05-05 18:25:02.807] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(1)
+[2025-05-05 18:25:02.807] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-05 18:25:02.807] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-05 18:25:02.807] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-05 18:25:02.819] [20869] (instrumented_task.cpp:52): polling 3 metrics
+[2025-05-05 18:30:32.982] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-05 18:30:32.982] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-05 18:30:32.982] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-05 18:30:32.982] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-05 18:30:32.982] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-05 18:30:32.982] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-05 18:30:32.983] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-05 18:30:32.984] [20869] (audio_device_impl.cc:529): output: 1
+[2025-05-05 18:30:32.984] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-05 18:30:32.984] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-05 18:30:32.984] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-05 18:30:32.984] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-05 18:30:32.984] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-05 18:30:32.984] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-05 18:30:32.984] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-05 18:30:32.984] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-05 18:30:32.984] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-05 18:30:32.986] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-05 18:30:32.986] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-05 18:30:32.986] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-05 18:30:32.986] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-05 18:30:32.986] [20869] (engine.cpp:230): * audioInput:
+[2025-05-05 18:30:32.986] [20869] (engine.cpp:233): - default: Built-in Audio Analog Stereo ()
+[2025-05-05 18:30:32.986] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-05 18:30:32.986] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-05 18:30:32.986] [20869] (engine.cpp:238): - default: Built-in Audio Analog Stereo ()
+[2025-05-05 18:30:32.986] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-05 18:30:32.986] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-05 18:30:32.986] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-05 18:30:32.986] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-05 18:30:32.986] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-05 18:30:32.986] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-05 18:30:32.986] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-05 18:30:32.986] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-05 18:30:32.987] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-05 18:30:32.989] [20869] (audio_device_impl.cc:529): output: 1
+[2025-05-05 18:30:32.989] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-05 18:30:32.989] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-05 18:30:32.989] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-05 18:30:32.989] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-05 18:30:32.989] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-05 18:30:32.989] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-05 18:30:32.989] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-05 18:30:32.989] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-05 18:30:32.990] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-05 18:30:32.991] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-05 18:30:32.991] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-05 18:30:32.991] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-05 18:34:55.081] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-05 18:34:55.081] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-05 18:34:55.081] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-05 18:34:55.084] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-05 18:34:55.086] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-05 18:34:55.086] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-05 18:34:55.086] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-05 18:34:55.086] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-05 18:34:55.086] [20869] (engine.cpp:230): * audioInput:
+[2025-05-05 18:34:55.086] [20869] (engine.cpp:233): - default: Built-in Audio Analog Stereo ()
+[2025-05-05 18:34:55.086] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-05 18:34:55.086] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-05 18:34:55.086] [20869] (engine.cpp:238): - default: Daniel's AirPods Pro ()
+[2025-05-05 18:34:55.086] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-05 18:34:55.086] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-05 18:34:55.086] [20869] (engine.cpp:238): - Daniel's AirPods Pro ()
+[2025-05-05 18:34:55.087] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-05 18:34:55.087] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-05 18:34:55.087] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-05 18:34:55.091] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-05 18:34:55.097] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-05 18:34:55.097] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-05 18:34:55.097] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-05 18:34:58.075] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-05 18:34:58.075] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-05 18:34:58.075] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-05 18:34:58.075] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-05 18:34:58.075] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-05 18:34:58.075] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-05 18:34:58.076] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-05 18:34:58.076] [20869] (audio_device_impl.cc:529): output: 0
+[2025-05-05 18:34:58.076] [20869] (audio_device_impl.cc:534): SetStereoRecording(0)
+[2025-05-05 18:34:58.076] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(1)
+[2025-05-05 18:34:58.076] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-05 18:34:58.077] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-05 18:34:58.077] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-05 18:34:58.077] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-05 18:34:58.077] [20869] (engine.cpp:230): * audioInput:
+[2025-05-05 18:34:58.077] [20869] (engine.cpp:233): - default: Daniel's AirPods Pro ()
+[2025-05-05 18:34:58.077] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-05 18:34:58.077] [20869] (engine.cpp:233): - Daniel's AirPods Pro ()
+[2025-05-05 18:34:58.077] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-05 18:34:58.077] [20869] (engine.cpp:238): - default: Daniel's AirPods Pro ()
+[2025-05-05 18:34:58.077] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-05 18:34:58.077] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-05 18:34:58.077] [20869] (engine.cpp:238): - Daniel's AirPods Pro ()
+[2025-05-05 18:34:58.078] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-05 18:34:58.078] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-05 18:34:58.078] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-05 18:34:58.078] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-05 18:34:58.078] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-05 18:34:58.078] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-05 18:34:58.079] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-05 18:34:58.083] [20869] (audio_device_impl.cc:529): output: 0
+[2025-05-05 18:34:58.083] [20869] (audio_device_impl.cc:534): SetStereoRecording(0)
+[2025-05-05 18:34:58.083] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(1)
+[2025-05-05 18:34:58.083] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-05 18:34:58.083] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-05 18:34:58.083] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-05 18:40:02.824] [20869] (instrumented_task.cpp:52): polling 3 metrics
+[2025-05-05 18:55:02.845] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 19:01:37.299] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-05 19:01:37.299] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-05 19:01:37.299] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-05 19:01:37.299] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-05 19:01:37.299] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-05 19:01:37.299] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-05 19:01:37.300] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-05 19:01:37.300] [20869] (audio_device_impl.cc:529): output: 1
+[2025-05-05 19:01:37.300] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-05 19:01:37.300] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-05 19:01:37.300] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-05 19:01:37.300] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-05 19:01:37.300] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-05 19:01:37.300] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-05 19:01:37.300] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-05 19:01:37.300] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-05 19:01:37.301] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-05 19:01:37.301] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-05 19:01:37.301] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-05 19:01:37.301] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-05 19:01:37.301] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-05 19:01:37.301] [20869] (engine.cpp:230): * audioInput:
+[2025-05-05 19:01:37.301] [20869] (engine.cpp:233): - default: Built-in Audio Analog Stereo ()
+[2025-05-05 19:01:37.301] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-05 19:01:37.301] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-05 19:01:37.301] [20869] (engine.cpp:238): - default: Built-in Audio Analog Stereo ()
+[2025-05-05 19:01:37.301] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-05 19:01:37.301] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-05 19:01:37.302] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-05 19:01:37.302] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-05 19:01:37.302] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-05 19:01:37.302] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-05 19:01:37.302] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-05 19:01:37.302] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-05 19:01:37.302] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-05 19:01:37.303] [20869] (audio_device_impl.cc:529): output: 1
+[2025-05-05 19:01:37.303] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-05 19:01:37.303] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-05 19:01:37.303] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-05 19:01:37.303] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-05 19:01:37.303] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-05 19:01:37.303] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-05 19:01:37.303] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-05 19:01:37.303] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-05 19:01:37.304] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-05 19:01:37.304] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-05 19:01:37.304] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-05 19:01:37.304] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-05 19:10:02.846] [20869] (instrumented_task.cpp:52): polling 3 metrics
+[2025-05-05 19:25:02.854] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 19:40:02.855] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 19:55:02.856] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 19:58:36.875] [54292] (region_latency_tester.cpp:72): Sending 5 latency test pings to region santa-clara
+[2025-05-05 19:58:36.877] [54292] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-west
+[2025-05-05 19:58:36.877] [54292] (region_latency_tester.cpp:72): Sending 5 latency test pings to region seattle
+[2025-05-05 19:58:36.877] [54292] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-south
+[2025-05-05 19:58:36.877] [54292] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-central
+[2025-05-05 19:58:36.953] [54292] (region_latency_tester.cpp:287): Average RTT for region santa-clara is 27.75
+[2025-05-05 19:58:36.953] [54292] (region_latency_tester.cpp:287): Average RTT for region us-west is 38
+[2025-05-05 19:58:36.953] [54292] (region_latency_tester.cpp:287): Average RTT for region seattle is 45.25
+[2025-05-05 19:58:36.953] [54292] (region_latency_tester.cpp:287): Average RTT for region us-south is 67.75
+[2025-05-05 19:58:36.953] [54292] (region_latency_tester.cpp:287): Average RTT for region us-central is 77.75
+[2025-05-05 20:10:02.857] [20869] (instrumented_task.cpp:52): polling 2 metrics
+[2025-05-05 20:25:02.863] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 20:29:10.810] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-05 20:29:11.017] [20855] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 206 ms
+[2025-05-05 20:29:11.017] [20855] JS console: [GatewaySocket] [RESUME] resuming session 15131ba23ebd630a0c6afd7d4211e473, seq: 17470
+[2025-05-05 20:29:11.180] [20855] JS console: [GatewaySocket] [RESUMED] took 370ms, replayed 0 events, new seq: 17471
+[2025-05-05 20:40:02.864] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 20:55:02.865] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 21:10:02.866] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 21:25:02.867] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 21:40:02.868] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 21:55:02.869] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 22:10:02.870] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 22:25:02.871] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 22:40:02.872] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 22:55:02.873] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 22:58:11.816] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-05 22:58:11.997] [20855] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 181 ms
+[2025-05-05 22:58:11.997] [20855] JS console: [GatewaySocket] [RESUME] resuming session 15131ba23ebd630a0c6afd7d4211e473, seq: 19546
+[2025-05-05 22:58:12.153] [20855] JS console: [GatewaySocket] [RESUMED] took 336ms, replayed 0 events, new seq: 19547
+[2025-05-05 23:10:02.875] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 23:25:02.876] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 23:40:02.877] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-05 23:47:59.959] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-05 23:48:00.158] [20855] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 198 ms
+[2025-05-05 23:48:00.158] [20855] JS console: [GatewaySocket] [RESUME] resuming session 15131ba23ebd630a0c6afd7d4211e473, seq: 19767
+[2025-05-05 23:48:00.303] [20855] JS console: [GatewaySocket] [RESUMED] took 344ms, replayed 0 events, new seq: 19768
+[2025-05-05 23:55:02.878] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 00:08:59.063] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-06 00:08:59.250] [20855] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 187 ms
+[2025-05-06 00:08:59.251] [20855] JS console: [GatewaySocket] [RESUME] resuming session 15131ba23ebd630a0c6afd7d4211e473, seq: 19854
+[2025-05-06 00:08:59.389] [20855] JS console: [GatewaySocket] [RESUMED] took 326ms, replayed 0 events, new seq: 19855
+[2025-05-06 00:10:02.879] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 00:25:02.881] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 00:40:02.881] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 00:55:02.882] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 01:10:02.883] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 01:25:02.884] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 01:40:02.885] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 01:55:02.886] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 01:58:37.141] [56720] (region_latency_tester.cpp:72): Sending 5 latency test pings to region santa-clara
+[2025-05-06 01:58:37.141] [56720] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-west
+[2025-05-06 01:58:37.141] [56720] (region_latency_tester.cpp:72): Sending 5 latency test pings to region seattle
+[2025-05-06 01:58:37.141] [56720] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-south
+[2025-05-06 01:58:37.141] [56720] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-central
+[2025-05-06 01:58:37.217] [56720] (region_latency_tester.cpp:287): Average RTT for region santa-clara is 24.5
+[2025-05-06 01:58:37.217] [56720] (region_latency_tester.cpp:287): Average RTT for region us-west is 33
+[2025-05-06 01:58:37.217] [56720] (region_latency_tester.cpp:287): Average RTT for region seattle is 41.5
+[2025-05-06 01:58:37.217] [56720] (region_latency_tester.cpp:287): Average RTT for region us-south is 63.75
+[2025-05-06 01:58:37.217] [56720] (region_latency_tester.cpp:287): Average RTT for region us-central is 72.5
+[2025-05-06 02:10:02.887] [20869] (instrumented_task.cpp:52): polling 2 metrics
+[2025-05-06 02:25:02.895] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 02:40:02.896] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 02:55:02.897] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 03:10:02.898] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 03:25:02.899] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 03:26:40.033] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-06 03:26:40.216] [20855] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 183 ms
+[2025-05-06 03:26:40.216] [20855] JS console: [GatewaySocket] [RESUME] resuming session 15131ba23ebd630a0c6afd7d4211e473, seq: 21504
+[2025-05-06 03:26:40.371] [20855] JS console: [GatewaySocket] [RESUMED] took 338ms, replayed 0 events, new seq: 21506
+[2025-05-06 03:40:02.900] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 03:49:57.410] [20855] JS console: [GatewaySocket] [ACK TIMEOUT] reconnecting in 1.05 seconds.
+[2025-05-06 03:49:58.459] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-06 03:49:58.495] [20855] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.62 seconds.
+[2025-05-06 03:50:01.113] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-06 03:50:01.116] [20855] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 7.08 seconds.
+[2025-05-06 03:50:08.192] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-06 03:50:08.197] [20855] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 11.88 seconds.
+[2025-05-06 03:50:20.081] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-06 03:50:20.089] [20855] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 12.82 seconds.
+[2025-05-06 03:50:20.089] [20855] JS console: [GatewaySocket] [RESET] (false, 0, An error with the websocket occurred)
+[2025-05-06 03:50:32.904] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-06 03:50:32.912] [20855] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 31.98 seconds.
+[2025-05-06 03:50:32.912] [20855] JS console: [GatewaySocket] [RESET] (false, 0, An error with the websocket occurred)
+[2025-05-06 03:51:04.887] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-06 03:51:04.900] [20855] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 60.00 seconds.
+[2025-05-06 03:51:04.900] [20855] JS console: [GatewaySocket] [RESET] (false, 0, An error with the websocket occurred)
+[2025-05-06 03:52:04.901] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-06 03:52:04.908] [20855] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 60.00 seconds.
+[2025-05-06 03:52:04.908] [20855] JS console: [GatewaySocket] [RESET] (false, 0, An error with the websocket occurred)
+[2025-05-06 03:52:28.366] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-06 03:52:28.549] [20855] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 182 ms
+[2025-05-06 03:52:29.557] [20855] JS console: [GatewaySocket] [READY] took 1191ms, as 77fb82893451e4ca8f310180c9f552ac
+[2025-05-06 03:52:29.939] [20869] (instrumented_task.cpp:22): Long Execution Time: Task 'SetMaybePreprocessMute' executed for 101.987ms
+[2025-05-06 03:52:30.212] [20855] JS console: [GatewaySocket] [READY_SUPPLEMENTAL] took 1846ms
+[2025-05-06 03:52:48.009] [57604] (region_latency_tester.cpp:72): Sending 5 latency test pings to region santa-clara
+[2025-05-06 03:52:48.009] [57604] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-west
+[2025-05-06 03:52:48.009] [57604] (region_latency_tester.cpp:72): Sending 5 latency test pings to region seattle
+[2025-05-06 03:52:48.009] [57604] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-south
+[2025-05-06 03:52:48.009] [57604] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-central
+[2025-05-06 03:52:48.074] [57604] (region_latency_tester.cpp:287): Average RTT for region santa-clara is 25
+[2025-05-06 03:52:48.074] [57604] (region_latency_tester.cpp:287): Average RTT for region us-west is 24.75
+[2025-05-06 03:52:48.074] [57604] (region_latency_tester.cpp:287): Average RTT for region seattle is 33
+[2025-05-06 03:52:48.074] [57604] (region_latency_tester.cpp:287): Average RTT for region us-south is 55.5
+[2025-05-06 03:52:48.074] [57604] (region_latency_tester.cpp:287): Average RTT for region us-central is 64
+[2025-05-06 03:53:59.064] [20855] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 1.91 seconds.
+[2025-05-06 03:54:00.976] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-06 03:54:01.170] [20855] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 194 ms
+[2025-05-06 03:54:01.171] [20855] JS console: [GatewaySocket] [RESUME] resuming session 77fb82893451e4ca8f310180c9f552ac, seq: 10
+[2025-05-06 03:54:15.575] [20855] JS console: [GatewaySocket] [RESUMED] took 14598ms, replayed 0 events, new seq: 13
+[2025-05-06 03:55:02.901] [20869] (instrumented_task.cpp:52): polling 3 metrics
+[2025-05-06 04:10:02.910] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 04:25:02.911] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 04:40:02.912] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 04:55:02.913] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 05:10:02.914] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 05:25:02.915] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 05:40:02.916] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 05:55:02.917] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 06:10:02.918] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 06:25:02.918] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 06:40:02.920] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 06:43:43.234] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-06 06:43:43.424] [20855] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 190 ms
+[2025-05-06 06:43:43.424] [20855] JS console: [GatewaySocket] [RESUME] resuming session 77fb82893451e4ca8f310180c9f552ac, seq: 1093
+[2025-05-06 06:43:43.560] [20855] JS console: [GatewaySocket] [RESUMED] took 326ms, replayed 0 events, new seq: 1095
+[2025-05-06 06:55:02.920] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 06:55:17.606] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-06 06:55:17.606] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-06 06:55:17.606] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-06 06:55:17.606] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-06 06:55:17.607] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-06 06:55:17.607] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-06 06:55:17.607] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-06 06:55:17.607] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-06 06:55:17.607] [20869] (engine.cpp:230): * audioInput:
+[2025-05-06 06:55:17.607] [20869] (engine.cpp:233): - default: Built-in Audio Analog Stereo ()
+[2025-05-06 06:55:17.607] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-06 06:55:17.607] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-06 06:55:17.607] [20869] (engine.cpp:238): - default: Daniel's AirPods Pro ()
+[2025-05-06 06:55:17.607] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-06 06:55:17.607] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-06 06:55:17.607] [20869] (engine.cpp:238): - Daniel's AirPods Pro ()
+[2025-05-06 06:55:17.607] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-06 06:55:17.607] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-06 06:55:17.607] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-06 06:55:17.608] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-06 06:55:17.609] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-06 06:55:17.609] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-06 06:55:17.609] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-06 06:55:19.626] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-06 06:55:19.627] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-06 06:55:19.627] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-06 06:55:19.627] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-06 06:55:19.627] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-06 06:55:19.627] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-06 06:55:19.628] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-06 06:55:19.631] [20869] (audio_device_impl.cc:529): output: 0
+[2025-05-06 06:55:19.631] [20869] (audio_device_impl.cc:534): SetStereoRecording(0)
+[2025-05-06 06:55:19.631] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(1)
+[2025-05-06 06:55:19.631] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-06 06:55:19.631] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-06 06:55:19.631] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-06 06:55:19.631] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-06 06:55:19.631] [20869] (engine.cpp:230): * audioInput:
+[2025-05-06 06:55:19.631] [20869] (engine.cpp:233): - default: Daniel's AirPods Pro ()
+[2025-05-06 06:55:19.631] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-06 06:55:19.631] [20869] (engine.cpp:233): - Daniel's AirPods Pro ()
+[2025-05-06 06:55:19.631] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-06 06:55:19.631] [20869] (engine.cpp:238): - default: Daniel's AirPods Pro ()
+[2025-05-06 06:55:19.631] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-06 06:55:19.631] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-06 06:55:19.632] [20869] (engine.cpp:238): - Daniel's AirPods Pro ()
+[2025-05-06 06:55:19.633] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-06 06:55:19.633] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-06 06:55:19.633] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-06 06:55:19.633] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-06 06:55:19.633] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-06 06:55:19.633] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-06 06:55:19.636] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-06 06:55:19.639] [20869] (audio_device_impl.cc:529): output: 0
+[2025-05-06 06:55:19.639] [20869] (audio_device_impl.cc:534): SetStereoRecording(0)
+[2025-05-06 06:55:19.639] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(1)
+[2025-05-06 06:55:19.639] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-06 06:55:19.639] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-06 06:55:19.639] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-06 07:01:57.631] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-06 07:01:57.857] [20855] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 225 ms
+[2025-05-06 07:01:57.857] [20855] JS console: [GatewaySocket] [RESUME] resuming session 77fb82893451e4ca8f310180c9f552ac, seq: 1308
+[2025-05-06 07:01:58.015] [20855] JS console: [GatewaySocket] [RESUMED] took 383ms, replayed 0 events, new seq: 1309
+[2025-05-06 07:10:02.921] [20869] (instrumented_task.cpp:52): polling 3 metrics
+[2025-05-06 07:11:09.742] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-06 07:11:09.742] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-06 07:11:09.742] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-06 07:11:09.742] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-06 07:11:09.742] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-06 07:11:09.742] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-06 07:11:09.744] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-06 07:11:09.746] [20869] (audio_device_impl.cc:529): output: 1
+[2025-05-06 07:11:09.746] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-06 07:11:09.746] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-06 07:11:09.746] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-06 07:11:09.746] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-06 07:11:09.746] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-06 07:11:09.746] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-06 07:11:09.746] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-06 07:11:09.746] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-06 07:11:09.748] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-06 07:11:09.750] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-06 07:11:09.750] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-06 07:11:09.750] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-06 07:11:09.750] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-06 07:11:09.750] [20869] (engine.cpp:230): * audioInput:
+[2025-05-06 07:11:09.750] [20869] (engine.cpp:233): - default: Built-in Audio Analog Stereo ()
+[2025-05-06 07:11:09.750] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-06 07:11:09.750] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-06 07:11:09.750] [20869] (engine.cpp:238): - default: Built-in Audio Analog Stereo ()
+[2025-05-06 07:11:09.750] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-06 07:11:09.750] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-06 07:11:09.751] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-06 07:11:09.751] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-06 07:11:09.751] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-06 07:11:09.751] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-06 07:11:09.751] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-06 07:11:09.751] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-06 07:11:09.753] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-06 07:11:09.757] [20869] (audio_device_impl.cc:529): output: 1
+[2025-05-06 07:11:09.757] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-06 07:11:09.757] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-06 07:11:09.757] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-06 07:11:09.757] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-06 07:11:09.757] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-06 07:11:09.757] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-06 07:11:09.757] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-06 07:11:09.757] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-06 07:11:09.759] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-06 07:11:09.761] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-06 07:11:09.761] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-06 07:11:09.761] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-06 07:25:02.929] [20869] (instrumented_task.cpp:52): polling 3 metrics
+[2025-05-06 07:40:02.937] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 07:48:42.738] [20855] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 1.60 seconds.
+[2025-05-06 07:48:44.335] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-06 07:48:44.540] [20855] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 205 ms
+[2025-05-06 07:48:44.540] [20855] JS console: [GatewaySocket] [RESUME] resuming session 77fb82893451e4ca8f310180c9f552ac, seq: 1918
+[2025-05-06 07:48:44.680] [20855] JS console: [GatewaySocket] [RESUMED] took 344ms, replayed 0 events, new seq: 1919
+[2025-05-06 07:55:02.938] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 08:10:02.939] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 08:25:02.940] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 08:40:02.941] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 08:51:52.107] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-06 08:51:52.324] [20855] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 217 ms
+[2025-05-06 08:51:52.324] [20855] JS console: [GatewaySocket] [RESUME] resuming session 77fb82893451e4ca8f310180c9f552ac, seq: 2341
+[2025-05-06 08:51:52.496] [20855] JS console: [GatewaySocket] [RESUMED] took 389ms, replayed 0 events, new seq: 2342
+[2025-05-06 08:55:02.942] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 09:10:02.943] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 09:25:02.944] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 09:40:02.946] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 09:52:47.755] [64915] (region_latency_tester.cpp:72): Sending 5 latency test pings to region santa-clara
+[2025-05-06 09:52:47.755] [64915] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-west
+[2025-05-06 09:52:47.755] [64915] (region_latency_tester.cpp:72): Sending 5 latency test pings to region seattle
+[2025-05-06 09:52:47.755] [64915] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-south
+[2025-05-06 09:52:47.755] [64915] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-central
+[2025-05-06 09:52:47.819] [64915] (region_latency_tester.cpp:287): Average RTT for region santa-clara is 16.75
+[2025-05-06 09:52:47.819] [64915] (region_latency_tester.cpp:287): Average RTT for region us-west is 23.5
+[2025-05-06 09:52:47.819] [64915] (region_latency_tester.cpp:287): Average RTT for region seattle is 32
+[2025-05-06 09:52:47.819] [64915] (region_latency_tester.cpp:287): Average RTT for region us-south is 55
+[2025-05-06 09:52:47.819] [64915] (region_latency_tester.cpp:287): Average RTT for region us-central is 64
+[2025-05-06 09:55:02.947] [20869] (instrumented_task.cpp:52): polling 2 metrics
+[2025-05-06 10:10:02.953] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 10:25:02.955] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 10:28:15.233] [20855] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 1.23 seconds.
+[2025-05-06 10:28:16.459] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-06 10:28:16.663] [20855] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 204 ms
+[2025-05-06 10:28:16.664] [20855] JS console: [GatewaySocket] [RESUME] resuming session 77fb82893451e4ca8f310180c9f552ac, seq: 2951
+[2025-05-06 10:28:16.816] [20855] JS console: [GatewaySocket] [RESUMED] took 356ms, replayed 0 events, new seq: 2952
+[2025-05-06 10:40:02.956] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 10:55:02.957] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 10:58:22.074] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-06 10:58:22.288] [20855] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 214 ms
+[2025-05-06 10:58:22.288] [20855] JS console: [GatewaySocket] [RESUME] resuming session 77fb82893451e4ca8f310180c9f552ac, seq: 3268
+[2025-05-06 10:58:22.432] [20855] JS console: [GatewaySocket] [RESUMED] took 357ms, replayed 0 events, new seq: 3269
+[2025-05-06 11:10:02.958] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 11:25:02.958] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 11:40:02.959] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 11:55:02.960] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 12:10:02.961] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 12:25:02.962] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 12:37:09.883] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-06 12:37:10.116] [20855] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 232 ms
+[2025-05-06 12:37:10.116] [20855] JS console: [GatewaySocket] [RESUME] resuming session 77fb82893451e4ca8f310180c9f552ac, seq: 4029
+[2025-05-06 12:37:10.270] [20855] JS console: [GatewaySocket] [RESUMED] took 387ms, replayed 0 events, new seq: 4030
+[2025-05-06 12:40:02.963] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 12:55:02.964] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 13:04:40.080] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-06 13:04:40.288] [20855] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 207 ms
+[2025-05-06 13:04:40.288] [20855] JS console: [GatewaySocket] [RESUME] resuming session 77fb82893451e4ca8f310180c9f552ac, seq: 4311
+[2025-05-06 13:04:40.441] [20855] JS console: [GatewaySocket] [RESUMED] took 361ms, replayed 0 events, new seq: 4312
+[2025-05-06 13:10:02.965] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 13:25:02.966] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 13:40:02.966] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 13:55:02.967] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 14:10:02.969] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 14:25:02.970] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 14:40:02.971] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 14:55:02.972] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 14:58:51.795] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-06 14:58:52.003] [20855] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 207 ms
+[2025-05-06 14:58:52.003] [20855] JS console: [GatewaySocket] [RESUME] resuming session 77fb82893451e4ca8f310180c9f552ac, seq: 5151
+[2025-05-06 14:58:52.158] [20855] JS console: [GatewaySocket] [RESUMED] took 363ms, replayed 0 events, new seq: 5152
+[2025-05-06 15:10:02.973] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 15:25:02.974] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 15:40:02.975] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 15:52:47.413] [76944] (region_latency_tester.cpp:72): Sending 5 latency test pings to region santa-clara
+[2025-05-06 15:52:47.413] [76944] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-west
+[2025-05-06 15:52:47.413] [76944] (region_latency_tester.cpp:72): Sending 5 latency test pings to region seattle
+[2025-05-06 15:52:47.413] [76944] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-south
+[2025-05-06 15:52:47.413] [76944] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-central
+[2025-05-06 15:52:47.485] [76944] (region_latency_tester.cpp:287): Average RTT for region santa-clara is 22.5
+[2025-05-06 15:52:47.485] [76944] (region_latency_tester.cpp:287): Average RTT for region us-west is 32
+[2025-05-06 15:52:47.485] [76944] (region_latency_tester.cpp:287): Average RTT for region seattle is 40
+[2025-05-06 15:52:47.485] [76944] (region_latency_tester.cpp:287): Average RTT for region us-south is 62
+[2025-05-06 15:52:47.485] [76944] (region_latency_tester.cpp:287): Average RTT for region us-central is 71.75
+[2025-05-06 15:55:02.976] [20869] (instrumented_task.cpp:52): polling 2 metrics
+[2025-05-06 16:10:02.984] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 16:25:02.985] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 16:40:02.986] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 16:55:02.987] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 17:10:02.988] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 17:14:17.549] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-06 17:14:17.549] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-06 17:14:17.549] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-06 17:14:17.551] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-06 17:14:17.553] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-06 17:14:17.553] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-06 17:14:17.553] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-06 17:14:17.553] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-06 17:14:17.553] [20869] (engine.cpp:230): * audioInput:
+[2025-05-06 17:14:17.553] [20869] (engine.cpp:233): - default: Built-in Audio Analog Stereo ()
+[2025-05-06 17:14:17.553] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-06 17:14:17.553] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-06 17:14:17.553] [20869] (engine.cpp:238): - default: Daniel's AirPods Pro ()
+[2025-05-06 17:14:17.553] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-06 17:14:17.553] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-06 17:14:17.553] [20869] (engine.cpp:238): - Daniel's AirPods Pro ()
+[2025-05-06 17:14:17.555] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-06 17:14:17.555] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-06 17:14:17.555] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-06 17:14:17.556] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-06 17:14:17.559] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-06 17:14:17.559] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-06 17:14:17.559] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-06 17:14:20.541] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-06 17:14:20.541] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-06 17:14:20.541] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-06 17:14:20.541] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-06 17:14:20.541] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-06 17:14:20.541] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-06 17:14:20.542] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-06 17:14:20.543] [20869] (audio_device_impl.cc:529): output: 0
+[2025-05-06 17:14:20.543] [20869] (audio_device_impl.cc:534): SetStereoRecording(0)
+[2025-05-06 17:14:20.543] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(1)
+[2025-05-06 17:14:20.543] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-06 17:14:20.543] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-06 17:14:20.543] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-06 17:14:20.543] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-06 17:14:20.543] [20869] (engine.cpp:230): * audioInput:
+[2025-05-06 17:14:20.543] [20869] (engine.cpp:233): - default: Daniel's AirPods Pro ()
+[2025-05-06 17:14:20.543] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-06 17:14:20.543] [20869] (engine.cpp:233): - Daniel's AirPods Pro ()
+[2025-05-06 17:14:20.543] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-06 17:14:20.543] [20869] (engine.cpp:238): - default: Daniel's AirPods Pro ()
+[2025-05-06 17:14:20.543] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-06 17:14:20.543] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-06 17:14:20.543] [20869] (engine.cpp:238): - Daniel's AirPods Pro ()
+[2025-05-06 17:14:20.545] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-06 17:14:20.545] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-06 17:14:20.545] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-06 17:14:20.545] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-06 17:14:20.545] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-06 17:14:20.545] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-06 17:14:20.546] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-06 17:14:20.548] [20869] (audio_device_impl.cc:529): output: 0
+[2025-05-06 17:14:20.548] [20869] (audio_device_impl.cc:534): SetStereoRecording(0)
+[2025-05-06 17:14:20.548] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(1)
+[2025-05-06 17:14:20.548] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-06 17:14:20.548] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-06 17:14:20.548] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-06 17:21:51.995] [20855] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 2.52 seconds.
+[2025-05-06 17:21:54.517] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-06 17:21:54.728] [20855] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 211 ms
+[2025-05-06 17:21:54.729] [20855] JS console: [GatewaySocket] [RESUME] resuming session 77fb82893451e4ca8f310180c9f552ac, seq: 6461
+[2025-05-06 17:21:54.877] [20855] JS console: [GatewaySocket] [RESUMED] took 360ms, replayed 0 events, new seq: 6462
+[2025-05-06 17:24:15.615] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-06 17:24:15.615] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-06 17:24:15.615] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-06 17:24:15.615] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-06 17:24:15.615] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-06 17:24:15.615] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-06 17:24:15.617] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-06 17:24:15.619] [20869] (audio_device_impl.cc:529): output: 1
+[2025-05-06 17:24:15.619] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-06 17:24:15.619] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-06 17:24:15.619] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-06 17:24:15.619] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-06 17:24:15.619] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-06 17:24:15.619] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-06 17:24:15.619] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-06 17:24:15.619] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-06 17:24:15.620] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-06 17:24:15.622] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-06 17:24:15.623] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-06 17:24:15.623] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-06 17:24:15.623] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-06 17:24:15.623] [20869] (engine.cpp:230): * audioInput:
+[2025-05-06 17:24:15.623] [20869] (engine.cpp:233): - default: Built-in Audio Analog Stereo ()
+[2025-05-06 17:24:15.623] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-06 17:24:15.623] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-06 17:24:15.623] [20869] (engine.cpp:238): - default: Built-in Audio Analog Stereo ()
+[2025-05-06 17:24:15.623] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-06 17:24:15.623] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-06 17:24:15.624] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-06 17:24:15.624] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-06 17:24:15.624] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-06 17:24:15.624] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-06 17:24:15.624] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-06 17:24:15.624] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-06 17:24:15.625] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-06 17:24:15.629] [20869] (audio_device_impl.cc:529): output: 1
+[2025-05-06 17:24:15.629] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-06 17:24:15.629] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-06 17:24:15.629] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-06 17:24:15.629] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-06 17:24:15.629] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-06 17:24:15.629] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-06 17:24:15.629] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-06 17:24:15.629] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-06 17:24:15.630] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-06 17:24:15.630] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-06 17:24:15.630] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-06 17:24:15.630] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-06 17:25:02.989] [20869] (instrumented_task.cpp:52): polling 3 metrics
+[2025-05-06 17:36:12.738] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-06 17:36:12.738] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-06 17:36:12.738] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-06 17:36:12.738] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-06 17:36:12.739] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-06 17:36:12.739] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-06 17:36:12.739] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-06 17:36:12.739] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-06 17:36:12.739] [20869] (engine.cpp:230): * audioInput:
+[2025-05-06 17:36:12.739] [20869] (engine.cpp:233): - default: Built-in Audio Analog Stereo ()
+[2025-05-06 17:36:12.739] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-06 17:36:12.739] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-06 17:36:12.739] [20869] (engine.cpp:238): - default: Daniel's AirPods Pro ()
+[2025-05-06 17:36:12.739] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-06 17:36:12.739] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-06 17:36:12.739] [20869] (engine.cpp:238): - Daniel's AirPods Pro ()
+[2025-05-06 17:36:12.740] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-06 17:36:12.740] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-06 17:36:12.740] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-06 17:36:12.740] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-06 17:36:12.741] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-06 17:36:12.741] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-06 17:36:12.741] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-06 17:36:14.759] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-06 17:36:14.759] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-06 17:36:14.759] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-06 17:36:14.759] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-06 17:36:14.759] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-06 17:36:14.759] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-06 17:36:14.761] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-06 17:36:14.763] [20869] (audio_device_impl.cc:529): output: 0
+[2025-05-06 17:36:14.763] [20869] (audio_device_impl.cc:534): SetStereoRecording(0)
+[2025-05-06 17:36:14.763] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(1)
+[2025-05-06 17:36:14.763] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-06 17:36:14.763] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-06 17:36:14.764] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-06 17:36:14.764] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-06 17:36:14.764] [20869] (engine.cpp:230): * audioInput:
+[2025-05-06 17:36:14.764] [20869] (engine.cpp:233): - default: Daniel's AirPods Pro ()
+[2025-05-06 17:36:14.764] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-06 17:36:14.764] [20869] (engine.cpp:233): - Daniel's AirPods Pro ()
+[2025-05-06 17:36:14.764] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-06 17:36:14.764] [20869] (engine.cpp:238): - default: Daniel's AirPods Pro ()
+[2025-05-06 17:36:14.764] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-06 17:36:14.764] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-06 17:36:14.764] [20869] (engine.cpp:238): - Daniel's AirPods Pro ()
+[2025-05-06 17:36:14.765] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-06 17:36:14.765] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-06 17:36:14.765] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-06 17:36:14.765] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-06 17:36:14.765] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-06 17:36:14.765] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-06 17:36:14.767] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-06 17:36:14.774] [20869] (audio_device_impl.cc:529): output: 0
+[2025-05-06 17:36:14.774] [20869] (audio_device_impl.cc:534): SetStereoRecording(0)
+[2025-05-06 17:36:14.774] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(1)
+[2025-05-06 17:36:14.774] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-06 17:36:14.774] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-06 17:36:14.774] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-06 17:40:02.997] [20869] (instrumented_task.cpp:52): polling 3 metrics
+[2025-05-06 17:55:03.016] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 18:10:03.016] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 18:19:50.123] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-06 18:19:50.123] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-06 18:19:50.123] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-06 18:19:50.123] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-06 18:19:50.123] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-06 18:19:50.123] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-06 18:19:50.124] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-06 18:19:50.125] [20869] (audio_device_impl.cc:529): output: 1
+[2025-05-06 18:19:50.125] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-06 18:19:50.125] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-06 18:19:50.125] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-06 18:19:50.125] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-06 18:19:50.125] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-06 18:19:50.125] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-06 18:19:50.125] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-06 18:19:50.125] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-06 18:19:50.125] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-06 18:19:50.126] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-06 18:19:50.126] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-06 18:19:50.126] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-06 18:19:50.126] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-06 18:19:50.126] [20869] (engine.cpp:230): * audioInput:
+[2025-05-06 18:19:50.126] [20869] (engine.cpp:233): - default: Built-in Audio Analog Stereo ()
+[2025-05-06 18:19:50.126] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-06 18:19:50.126] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-06 18:19:50.126] [20869] (engine.cpp:238): - default: Built-in Audio Analog Stereo ()
+[2025-05-06 18:19:50.126] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-06 18:19:50.126] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-06 18:19:50.127] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-06 18:19:50.127] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-06 18:19:50.127] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-06 18:19:50.127] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-06 18:19:50.127] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-06 18:19:50.127] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-06 18:19:50.128] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-06 18:19:50.130] [20869] (audio_device_impl.cc:529): output: 1
+[2025-05-06 18:19:50.130] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-06 18:19:50.130] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-06 18:19:50.130] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-06 18:19:50.130] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-06 18:19:50.130] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-06 18:19:50.130] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-06 18:19:50.130] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-06 18:19:50.130] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-06 18:19:50.131] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-06 18:19:50.132] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-06 18:19:50.132] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-06 18:19:50.132] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-06 18:25:03.017] [20869] (instrumented_task.cpp:52): polling 3 metrics
+[2025-05-06 18:40:03.031] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 18:49:16.087] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-06 18:49:16.087] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-06 18:49:16.088] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-06 18:49:16.089] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-06 18:49:16.091] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-06 18:49:16.091] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-06 18:49:16.091] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-06 18:49:16.091] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-06 18:49:16.091] [20869] (engine.cpp:230): * audioInput:
+[2025-05-06 18:49:16.091] [20869] (engine.cpp:233): - default: Built-in Audio Analog Stereo ()
+[2025-05-06 18:49:16.091] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-06 18:49:16.091] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-06 18:49:16.091] [20869] (engine.cpp:238): - default: Daniel's AirPods Pro ()
+[2025-05-06 18:49:16.091] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-06 18:49:16.091] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-06 18:49:16.091] [20869] (engine.cpp:238): - Daniel's AirPods Pro ()
+[2025-05-06 18:49:16.092] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-06 18:49:16.092] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-06 18:49:16.092] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-06 18:49:16.094] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-06 18:49:16.096] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-06 18:49:16.096] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-06 18:49:16.096] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-06 18:49:19.084] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-06 18:49:19.084] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-06 18:49:19.084] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-06 18:49:19.084] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-06 18:49:19.084] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-06 18:49:19.084] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-06 18:49:19.085] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-06 18:49:19.085] [20869] (audio_device_impl.cc:529): output: 0
+[2025-05-06 18:49:19.085] [20869] (audio_device_impl.cc:534): SetStereoRecording(0)
+[2025-05-06 18:49:19.085] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(1)
+[2025-05-06 18:49:19.085] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-06 18:49:19.085] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-06 18:49:19.085] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-06 18:49:19.085] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-06 18:49:19.085] [20869] (engine.cpp:230): * audioInput:
+[2025-05-06 18:49:19.085] [20869] (engine.cpp:233): - default: Daniel's AirPods Pro ()
+[2025-05-06 18:49:19.085] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-06 18:49:19.085] [20869] (engine.cpp:233): - Daniel's AirPods Pro ()
+[2025-05-06 18:49:19.085] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-06 18:49:19.085] [20869] (engine.cpp:238): - default: Daniel's AirPods Pro ()
+[2025-05-06 18:49:19.085] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-06 18:49:19.085] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-06 18:49:19.086] [20869] (engine.cpp:238): - Daniel's AirPods Pro ()
+[2025-05-06 18:49:19.086] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-06 18:49:19.086] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-06 18:49:19.086] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-06 18:49:19.086] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-06 18:49:19.086] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-06 18:49:19.086] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-06 18:49:19.087] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-06 18:49:19.088] [20869] (audio_device_impl.cc:529): output: 0
+[2025-05-06 18:49:19.088] [20869] (audio_device_impl.cc:534): SetStereoRecording(0)
+[2025-05-06 18:49:19.088] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(1)
+[2025-05-06 18:49:19.088] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-06 18:49:19.088] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-06 18:49:19.088] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-06 18:55:03.032] [20869] (instrumented_task.cpp:52): polling 3 metrics
+[2025-05-06 19:10:03.216] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 19:14:09.522] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-06 19:14:09.522] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-06 19:14:09.522] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-06 19:14:09.522] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-06 19:14:09.522] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-06 19:14:09.522] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-06 19:14:09.524] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-06 19:14:09.526] [20869] (audio_device_impl.cc:529): output: 1
+[2025-05-06 19:14:09.526] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-06 19:14:09.526] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-06 19:14:09.526] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-06 19:14:09.526] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-06 19:14:09.526] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-06 19:14:09.526] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-06 19:14:09.526] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-06 19:14:09.526] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-06 19:14:09.528] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-06 19:14:09.530] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-06 19:14:09.530] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-06 19:14:09.530] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-06 19:14:09.530] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-06 19:14:09.530] [20869] (engine.cpp:230): * audioInput:
+[2025-05-06 19:14:09.530] [20869] (engine.cpp:233): - default: Built-in Audio Analog Stereo ()
+[2025-05-06 19:14:09.530] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-06 19:14:09.530] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-06 19:14:09.530] [20869] (engine.cpp:238): - default: Built-in Audio Analog Stereo ()
+[2025-05-06 19:14:09.530] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-06 19:14:09.530] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-06 19:14:09.531] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-06 19:14:09.531] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-06 19:14:09.531] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-06 19:14:09.531] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-06 19:14:09.531] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-06 19:14:09.531] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-06 19:14:09.532] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-06 19:14:09.534] [20869] (audio_device_impl.cc:529): output: 1
+[2025-05-06 19:14:09.534] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-06 19:14:09.534] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-06 19:14:09.534] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-06 19:14:09.534] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-06 19:14:09.534] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-06 19:14:09.534] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-06 19:14:09.535] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-06 19:14:09.535] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-06 19:14:09.535] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-06 19:14:09.537] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-06 19:14:09.537] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-06 19:14:09.537] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-06 19:25:03.216] [20869] (instrumented_task.cpp:52): polling 3 metrics
+[2025-05-06 19:40:04.215] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 19:52:52.218] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-06 19:52:52.484] [20855] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 266 ms
+[2025-05-06 19:52:52.484] [20855] JS console: [GatewaySocket] [RESUME] resuming session 77fb82893451e4ca8f310180c9f552ac, seq: 7242
+[2025-05-06 19:52:53.221] [20855] JS console: [GatewaySocket] [RESUMED] took 1003ms, replayed 0 events, new seq: 7243
+[2025-05-06 19:55:04.216] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 20:10:04.217] [20869] (instrumented_task.cpp:52): polling 1 metrics
+[2025-05-06 20:15:21.102] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-06 20:15:21.102] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-06 20:15:21.102] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-06 20:15:21.102] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-06 20:15:21.103] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-06 20:15:21.103] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-06 20:15:21.103] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-06 20:15:21.103] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-06 20:15:21.103] [20869] (engine.cpp:230): * audioInput:
+[2025-05-06 20:15:21.103] [20869] (engine.cpp:233): - default: Built-in Audio Analog Stereo ()
+[2025-05-06 20:15:21.103] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-06 20:15:21.103] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-06 20:15:21.103] [20869] (engine.cpp:238): - default: Daniel's AirPods Pro ()
+[2025-05-06 20:15:21.103] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-06 20:15:21.103] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-06 20:15:21.103] [20869] (engine.cpp:238): - Daniel's AirPods Pro ()
+[2025-05-06 20:15:21.104] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-06 20:15:21.104] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-06 20:15:21.104] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-06 20:15:21.104] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-06 20:15:21.105] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-06 20:15:21.105] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-06 20:15:21.105] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-06 20:15:23.106] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-06 20:15:23.106] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-06 20:15:23.106] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-06 20:15:23.106] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-06 20:15:23.106] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-06 20:15:23.106] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-06 20:15:23.107] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-06 20:15:23.108] [20869] (audio_device_impl.cc:529): output: 0
+[2025-05-06 20:15:23.108] [20869] (audio_device_impl.cc:534): SetStereoRecording(0)
+[2025-05-06 20:15:23.108] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(1)
+[2025-05-06 20:15:23.108] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-06 20:15:23.108] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-06 20:15:23.108] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-06 20:15:23.108] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-06 20:15:23.108] [20869] (engine.cpp:230): * audioInput:
+[2025-05-06 20:15:23.108] [20869] (engine.cpp:233): - default: Daniel's AirPods Pro ()
+[2025-05-06 20:15:23.108] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-06 20:15:23.108] [20869] (engine.cpp:233): - Daniel's AirPods Pro ()
+[2025-05-06 20:15:23.108] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-06 20:15:23.108] [20869] (engine.cpp:238): - default: Daniel's AirPods Pro ()
+[2025-05-06 20:15:23.108] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-06 20:15:23.108] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-06 20:15:23.108] [20869] (engine.cpp:238): - Daniel's AirPods Pro ()
+[2025-05-06 20:15:23.109] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-06 20:15:23.109] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-06 20:15:23.109] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-06 20:15:23.109] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-06 20:15:23.109] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-06 20:15:23.109] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-06 20:15:23.109] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-06 20:15:23.111] [20869] (audio_device_impl.cc:529): output: 0
+[2025-05-06 20:15:23.111] [20869] (audio_device_impl.cc:534): SetStereoRecording(0)
+[2025-05-06 20:15:23.111] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(1)
+[2025-05-06 20:15:23.111] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-06 20:15:23.111] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-06 20:15:23.111] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-06 20:22:10.189] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-06 20:22:10.189] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-06 20:22:10.189] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-06 20:22:10.189] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-06 20:22:10.189] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-06 20:22:10.189] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-06 20:22:10.191] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-06 20:22:10.193] [20869] (audio_device_impl.cc:529): output: 1
+[2025-05-06 20:22:10.193] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-06 20:22:10.193] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-06 20:22:10.193] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-06 20:22:10.193] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-06 20:22:10.193] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-06 20:22:10.193] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-06 20:22:10.193] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-06 20:22:10.193] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-06 20:22:10.195] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-06 20:22:10.197] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-06 20:22:10.197] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-06 20:22:10.197] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-06 20:22:10.197] [20869] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-06 20:22:10.197] [20869] (engine.cpp:230): * audioInput:
+[2025-05-06 20:22:10.197] [20869] (engine.cpp:233): - default: Built-in Audio Analog Stereo ()
+[2025-05-06 20:22:10.197] [20869] (engine.cpp:233): - Built-in Audio Analog Stereo ()
+[2025-05-06 20:22:10.197] [20869] (engine.cpp:235): * audioOutput:
+[2025-05-06 20:22:10.197] [20869] (engine.cpp:238): - default: Built-in Audio Analog Stereo ()
+[2025-05-06 20:22:10.197] [20869] (engine.cpp:238): - Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] Digital Stereo (HDMI) ()
+[2025-05-06 20:22:10.197] [20869] (engine.cpp:238): - Built-in Audio Analog Stereo ()
+[2025-05-06 20:22:10.198] [20869] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-06 20:22:10.198] [20869] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-06 20:22:10.198] [20869] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-06 20:22:10.198] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-06 20:22:10.198] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-06 20:22:10.198] [20869] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-06 20:22:10.200] [20869] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-06 20:22:10.203] [20869] (audio_device_impl.cc:529): output: 1
+[2025-05-06 20:22:10.203] [20869] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-06 20:22:10.203] [20869] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-06 20:22:10.203] [20869] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-06 20:22:10.203] [20869] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-06 20:22:10.203] [20869] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-06 20:22:10.203] [20869] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-06 20:22:10.203] [20869] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-06 20:22:10.203] [20869] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-06 20:22:10.204] [20869] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-06 20:22:10.206] [20869] (audio_device_impl.cc:575): output: 1
+[2025-05-06 20:22:10.206] [20869] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-06 20:22:10.206] [20869] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-06 20:25:04.222] [20869] (instrumented_task.cpp:52): polling 3 metrics
+[2025-05-06 20:31:26.986] [20855] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-06 20:31:27.228] [20855] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 241 ms
+[2025-05-06 20:31:27.228] [20855] JS console: [GatewaySocket] [RESUME] resuming session 77fb82893451e4ca8f310180c9f552ac, seq: 7392
+[2025-05-06 20:31:28.220] [20855] JS console: [GatewaySocket] [RESUMED] took 1234ms, replayed 0 events, new seq: 7393

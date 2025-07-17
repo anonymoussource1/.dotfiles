@@ -1,0 +1,21 @@
+#!/bin/bash
+if [[ $button -eq 1 && $_pressed = "0" ]];
+then
+	message=$(iwctl station wlan0 show | awk '
+		/Connected network/ {
+			name=$3
+		}
+		/IPv4/ {
+			ip=$3
+		}
+		END {
+			printf("%s (%s)",name,ip)
+		}
+	')
+	pressed=1
+else
+	message=IP
+	pressed=0
+fi
+
+printf '{"full_text":"%s", "_pressed":%s}\n' "$message" $pressed
